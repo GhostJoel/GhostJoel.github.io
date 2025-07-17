@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>这是alpha</title>
+    <url>/uncategorized/8cc85afc82b8/</url>
+    <content><![CDATA[<p>本网站处于测试开发阶段，有很多地方都尚未完善！不喜勿喷！</p>
+<p>数据迁移中</p>
+<p>旧网站：moran.vercel.app</p>
+]]></content>
+  </entry>
+  <entry>
+    <title>欢迎来到默然补给站2.0</title>
+    <url>/%E9%80%9A%E7%9F%A5/521339ccfce9/</url>
+    <content><![CDATA[<h2 id="其实是我测试时的一些废话…后续会用更好的介绍页代替的"><a href="#其实是我测试时的一些废话…后续会用更好的介绍页代替的" class="headerlink" title="其实是我测试时的一些废话…后续会用更好的介绍页代替的"></a>其实是我测试时的一些废话…后续会用更好的介绍页代替的</h2><h2 id="摸鱼中……"><a href="#摸鱼中……" class="headerlink" title="摸鱼中……"></a>摸鱼中……</h2><p>咕噜咕噜~</p>
+<hr>
+<p>网站总是搭好了！好耶</p>
+<p>正在学怎么用markdown写帖子</p>
+<p>一切都得从头开始了哦！</p>
+<p>比notion麻烦但是只要认真学就会好得多！</p>
+<p>会努力的！</p>
+<p>下面的东西给自己用，会用到的一些写法</p>
+<h1 id="空格一级标题"><a href="#空格一级标题" class="headerlink" title="#空格一级标题"></a>#空格一级标题</h1><h2 id="空格二级标题"><a href="#空格二级标题" class="headerlink" title="##空格二级标题"></a>##空格二级标题</h2><h3 id="3"><a href="#3" class="headerlink" title="3"></a>3</h3><h4 id="4"><a href="#4" class="headerlink" title="4"></a>4</h4><h5 id="5"><a href="#5" class="headerlink" title="5"></a>5</h5><h6 id="6"><a href="#6" class="headerlink" title="6"></a>6</h6><p>（最多是六个啊</p>
+<p>两个星号或者下划线包着 <strong>加粗</strong> <strong>加粗</strong></p>
+<p>一个下划线包着 <em>斜体</em></p>
+<p>两个波浪线删除 <del>ABC</del></p>
+<p>三个杠分隔线</p>
+<hr>
+<h1 id="哎呦算了还是找个书看看吧我真服了"><a href="#哎呦算了还是找个书看看吧我真服了" class="headerlink" title="哎呦算了还是找个书看看吧我真服了"></a><del>哎呦算了还是找个书看看吧我真服了</del></h1><ul>
+<li></li>
+<li></li>
+</ul>
+<h2 id="（个人用）一些发文章的要点："><a href="#（个人用）一些发文章的要点：" class="headerlink" title="（个人用）一些发文章的要点："></a>（个人用）一些发文章的要点：</h2><h3 id="1-文章单独设置文件夹管理"><a href="#1-文章单独设置文件夹管理" class="headerlink" title="1.文章单独设置文件夹管理"></a>1.文章单独设置文件夹管理</h3><p>GPT：<br>方案 B（命令行创建，推荐）：<br>直接用 Hexo 命令创建：</p>
+<p>hexo new “我的文章”</p>
+<p>这样就会自动使用 _config.yml 中的 new_post_name 规则，创建 index.md 和对应文件夹。</p>
+<h3 id="2-frontmatter设置"><a href="#2-frontmatter设置" class="headerlink" title="2.frontmatter设置"></a>2.frontmatter设置</h3><p>直接用vscode多写点好了</p>
+<h2 id="我在写什么啊？？"><a href="#我在写什么啊？？" class="headerlink" title="我在写什么啊？？"></a>我在写什么啊？？</h2>]]></content>
+      <categories>
+        <category>通知</category>
+      </categories>
+      <tags>
+        <tag>网页更新</tag>
+      </tags>
+  </entry>
+</search>
