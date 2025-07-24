@@ -139,6 +139,13 @@
     </div>
   </div>
 
+  <div class="timeline-item">
+    <div class="timeline-date">2025-07-23</div>
+    <div class="timeline-content">
+      修改了一些主题配置
+    </div>
+  </div>
+
 
 <!-- ✅ 可继续添加新条目 -->
 
@@ -155,7 +162,7 @@
   <entry>
     <title>欢迎来到默然补给站2.0</title>
     <url>/%E9%80%9A%E7%9F%A5/521339ccfce9/</url>
-    <content><![CDATA[<h2 id="其实是我测试时的一些废话…后续会用更好的介绍页代替的"><a href="#其实是我测试时的一些废话…后续会用更好的介绍页代替的" class="headerlink" title="其实是我测试时的一些废话…后续会用更好的介绍页代替的"></a>其实是我测试时的一些废话…后续会用更好的介绍页代替的</h2><h2 id="摸鱼中……"><a href="#摸鱼中……" class="headerlink" title="摸鱼中……"></a>摸鱼中……</h2><p>咕噜咕噜~</p>
+    <content><![CDATA[<h2 id="摸鱼中……"><a href="#摸鱼中……" class="headerlink" title="摸鱼中……"></a>摸鱼中……</h2><p>咕噜咕噜~</p>
 <hr>
 <p>网站总是搭好了！好耶</p>
 <p>正在学怎么用markdown写帖子</p>
@@ -173,7 +180,7 @@
 <li></li>
 <li></li>
 </ul>
-<h2 id="（个人用）一些发文章的要点："><a href="#（个人用）一些发文章的要点：" class="headerlink" title="（个人用）一些发文章的要点："></a>（个人用）一些发文章的要点：</h2><h3 id="1-文章单独设置文件夹管理"><a href="#1-文章单独设置文件夹管理" class="headerlink" title="1.文章单独设置文件夹管理"></a>1.文章单独设置文件夹管理</h3><p>GPT：<br>方案 B（命令行创建，推荐）：<br>直接用 Hexo 命令创建：</p>
+<h2 id="一些要点："><a href="#一些要点：" class="headerlink" title="一些要点："></a>一些要点：</h2><h3 id="1-文章单独设置文件夹管理"><a href="#1-文章单独设置文件夹管理" class="headerlink" title="1.文章单独设置文件夹管理"></a>1.文章单独设置文件夹管理</h3><p>GPT：<br>方案 B（命令行创建，推荐）：<br>直接用 Hexo 命令创建：</p>
 <p>hexo new “我的文章”</p>
 <p>这样就会自动使用 _config.yml 中的 new_post_name 规则，创建 index.md 和对应文件夹。</p>
 <h3 id="2-frontmatter设置"><a href="#2-frontmatter设置" class="headerlink" title="2.frontmatter设置"></a>2.frontmatter设置</h3><p>直接用vscode多写点好了</p>
