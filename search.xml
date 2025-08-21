@@ -118,146 +118,6 @@
       </tags>
   </entry>
   <entry>
-    <title>补给站开发中（Alpha）</title>
-    <url>/%E8%A1%A5%E7%BB%99%E7%AB%99%E5%9F%BA%E5%BB%BA/d52dcd89038e/</url>
-    <content><![CDATA[<p>网站处于测试阶段，有很多地方都尚未完善！不喜勿喷</p>
-<p>数据迁移中</p>
-<p>旧网站：<a href="https://moranneko.vercel.app/">https://moranneko.vercel.app</a></p>
-<h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><style>
-/* 基础时间线结构 */
-.timeline {
-  position: relative;
-  margin: 2em 0;
-  padding-left: 1em;
-  border-left: 4px solid #ff89d6;
-}
-
-.timeline-item {
-  position: relative;
-  margin-bottom: 3em;
-}
-
-.timeline-item::before {
-  content: '';
-  position: absolute;
-  left: -24px;
-  top: 0.5em;
-  width: 12px;
-  height: 12px;
-  background-color: #ffb3e4;
-  border-radius: 50%;
-  border: 2px solid #c94fa7;
-  box-shadow: 0 0 0 2px #ffb3e4;
-}
-
-.timeline-date {
-  font-weight: bold;
-  color: #c94fa7;
-  margin-bottom:0.5em;
-}
-
-.timeline-content {
-  padding-left: 1em;
-  line-height: 1.5;
-}
-
-/* 🌙 深色模式适配 */
-@media (prefers-color-scheme: dark) {
-  .timeline {
-    border-left-color: #ffb3e4;
-  }
-  .timeline-item::before {
-    background-color: #ff89d6;
-    border-color: #ffd0ef;
-    box-shadow: 0 0 0 2px #ff89d6;
-  }
-  .timeline-date {
-    color: #ffd0ef;
-  }
-}
-</style>
-
-<div class="timeline">
-
-  <div class="timeline-item">
-    <div class="timeline-date">2025-07-14</div>
-    <div class="timeline-content">
-      初始版本完成，本地测试
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-date">2025-07-15</div>
-    <div class="timeline-content">
-      添加音乐播放器，添加部分文章和图片，本地测试<br/>
-      播放器夜间模式优化
-    </div>
-  </div>
-
-
-  <div class="timeline-item">
-    <div class="timeline-date">2025-07-16</div>
-    <div class="timeline-content">
-      修复了播放器展开播放列表之后无法对齐的问题<br/>
-      美化播放器<br/>
-      数据迁移
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-date">2025-07-17</div>
-    <div class="timeline-content">
-      添加了默然的笔记本
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-date">2025-07-18</div>
-    <div class="timeline-content">
-      更换主页背景图和其他位置的图片<br/>
-      优化了文件路径<br/>
-      添加主页打字机效果欢迎词<br/>
-      数据迁移
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-date">2025-07-19</div>
-    <div class="timeline-content">
-      添加了waline评论区<br/>
-      内容日常更新+数据迁移<br/>
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-date">2025-07-23</div>
-    <div class="timeline-content">
-      修改了一些主题配置
-    </div>
-  </div>
-
-  <div class="timeline-item">
-    <div class="timeline-date">2025-07-29</div>
-    <div class="timeline-content">
-      友链更新<br/>
-      更正了帖子里的几个小错误
-    </div>
-  </div>
-
-
-<!-- ✅ 可继续添加新条目 -->
-
-</div>
-]]></content>
-      <categories>
-        <category>补给站基建</category>
-      </categories>
-      <tags>
-        <tag>开发</tag>
-        <tag>笨蛋</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>基于hexo和Butterfly的个人博客搭建-1</title>
     <url>/%E5%BC%80%E5%8F%91/6d6b7fd8fb0f/</url>
     <content><![CDATA[<p>本文旨在帮助对搭建个人博客有兴趣的同学快速上手，省去了部分自己查询官方教程花费的时间（也算是懒人教程了），但还是希望你自己去查找更详细的教程阅读一下<br><br>前提是需要会windows系统以及电脑的基础知识和基本操作，如果遇到一些比如“命令提示符（cmd）是什么，怎么打开”的问题，请自行搜索或者询问AI<br><br>还有，里面的示例代码仅供参考！一些由于篇幅过长没有展示全部，请勿盲目复制！</p>
@@ -472,6 +332,146 @@
       <tags>
         <tag>游戏</tag>
         <tag>战地</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>补给站开发中（Alpha）</title>
+    <url>/%E8%A1%A5%E7%BB%99%E7%AB%99%E5%9F%BA%E5%BB%BA/d52dcd89038e/</url>
+    <content><![CDATA[<p>网站处于测试阶段，有很多地方都尚未完善！不喜勿喷</p>
+<p>数据迁移中</p>
+<p>旧网站：<a href="https://moranneko.vercel.app/">https://moranneko.vercel.app</a></p>
+<h2 id="更新日志"><a href="#更新日志" class="headerlink" title="更新日志"></a>更新日志</h2><style>
+/* 基础时间线结构 */
+.timeline {
+  position: relative;
+  margin: 2em 0;
+  padding-left: 1em;
+  border-left: 4px solid #ff89d6;
+}
+
+.timeline-item {
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -24px;
+  top: 0.5em;
+  width: 12px;
+  height: 12px;
+  background-color: #ffb3e4;
+  border-radius: 50%;
+  border: 2px solid #c94fa7;
+  box-shadow: 0 0 0 2px #ffb3e4;
+}
+
+.timeline-date {
+  font-weight: bold;
+  color: #c94fa7;
+  margin-bottom:0.5em;
+}
+
+.timeline-content {
+  padding-left: 1em;
+  line-height: 1.5;
+}
+
+/* 🌙 深色模式适配 */
+@media (prefers-color-scheme: dark) {
+  .timeline {
+    border-left-color: #ffb3e4;
+  }
+  .timeline-item::before {
+    background-color: #ff89d6;
+    border-color: #ffd0ef;
+    box-shadow: 0 0 0 2px #ff89d6;
+  }
+  .timeline-date {
+    color: #ffd0ef;
+  }
+}
+</style>
+
+<div class="timeline">
+
+  <div class="timeline-item">
+    <div class="timeline-date">2025-07-14</div>
+    <div class="timeline-content">
+      初始版本完成，本地测试
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2025-07-15</div>
+    <div class="timeline-content">
+      添加音乐播放器，添加部分文章和图片，本地测试<br/>
+      播放器夜间模式优化
+    </div>
+  </div>
+
+
+  <div class="timeline-item">
+    <div class="timeline-date">2025-07-16</div>
+    <div class="timeline-content">
+      修复了播放器展开播放列表之后无法对齐的问题<br/>
+      美化播放器<br/>
+      数据迁移
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2025-07-17</div>
+    <div class="timeline-content">
+      添加了默然的笔记本
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2025-07-18</div>
+    <div class="timeline-content">
+      更换主页背景图和其他位置的图片<br/>
+      优化了文件路径<br/>
+      添加主页打字机效果欢迎词<br/>
+      数据迁移
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2025-07-19</div>
+    <div class="timeline-content">
+      添加了waline评论区<br/>
+      内容日常更新+数据迁移<br/>
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2025-07-23</div>
+    <div class="timeline-content">
+      修改了一些主题配置
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">2025-07-29</div>
+    <div class="timeline-content">
+      友链更新<br/>
+      更正了帖子里的几个小错误
+    </div>
+  </div>
+
+
+<!-- ✅ 可继续添加新条目 -->
+
+</div>
+]]></content>
+      <categories>
+        <category>补给站基建</category>
+      </categories>
+      <tags>
+        <tag>开发</tag>
+        <tag>笨蛋</tag>
       </tags>
   </entry>
 </search>
