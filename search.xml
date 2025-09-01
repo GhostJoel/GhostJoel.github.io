@@ -1,107 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>基于hexo和Butterfly的个人博客搭建-1</title>
-    <url>/%E5%BC%80%E5%8F%91/6d6b7fd8fb0f/</url>
-    <content><![CDATA[<p>本文旨在帮助对搭建个人博客有兴趣的同学快速上手，省去了部分自己查询官方教程花费的时间（也算是懒人教程了），但还是希望你自己去查找更详细的教程阅读一下<br><br>前提是需要会windows系统以及电脑的基础知识和基本操作，如果遇到一些比如“命令提示符（cmd）是什么，怎么打开”的问题，请自行搜索或者询问AI<br><br>还有，里面的示例代码仅供参考！一些由于篇幅过长没有展示全部，请勿盲目复制！</p>
-<hr>
-<h1 id="一-安装"><a href="#一-安装" class="headerlink" title="一.安装"></a>一.安装</h1><h2 id="1-必需品"><a href="#1-必需品" class="headerlink" title="1.必需品"></a>1.必需品</h2><p>下载这两个↓<br>git：<a href="https://git-scm.com/downloads/win">https://git-scm.com/downloads/win</a><br>nodejs <del>没的解释（no de j s🤣）</del>：<a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></p>
-<p>同时，为了方便后续编辑和修改代码，推荐下载vscode:<a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download</a></p>
-<h2 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h2><h3 id="☀安装hexo-CLI"><a href="#☀安装hexo-CLI" class="headerlink" title="☀安装hexo CLI"></a>☀安装hexo CLI</h3><p>在cmd中输入</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
-
-<p>等待安装完成</p>
-<p>之后可以输入 hexo -v 查看版本号，确认是否安装成功</p>
-<h3 id="☀初始化"><a href="#☀初始化" class="headerlink" title="☀初始化"></a>☀初始化</h3><p>选择你想放博客文件的位置，比如D盘，然后在cmd中输入：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">D:             #或者你想放的其他位置</span></span><br><span class="line"><span class="function"><span class="title">hexo</span> <span class="title">init</span> <span class="title">my</span>-<span class="title">blog</span></span></span><br><span class="line"><span class="function"><span class="title">cd</span> <span class="title">my</span>-<span class="title">blog</span></span></span><br><span class="line"><span class="function"><span class="title">npm</span> <span class="title">install</span></span></span><br></pre></td></tr></table></figure>
-
-
-
-
-<p>这样你的博客就会安装在<mark class="hl-label default">D:/my-blog/</mark></p>
-<h3 id="☀预览"><a href="#☀预览" class="headerlink" title="☀预览"></a>☀预览</h3><p>在cmd中输入以下命令运行本地服务器：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s # 清理+创建页面+运行本地服务器</span><br></pre></td></tr></table></figure>
-
-
-
-
-<p>然后在浏览器访问<mark class="hl-label default">localhost:4000</mark>，就可以看到一个默认的hexo博客页面啦</p>
-<h2 id="3-安装butterfly"><a href="#3-安装butterfly" class="headerlink" title="3.安装butterfly"></a>3.安装butterfly</h2><p>继续在cmd里（你不会给关上了吧？注意cmd路径要在你的博客位置，比如D:&#x2F;my-blog）输入：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly # 下载butterfly主题</span><br><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save # 安装渲染器（方便后续加一些有意思的东西）</span><br></pre></td></tr></table></figure>
-
-
-
-<h3 id="☀推荐的基本设置"><a href="#☀推荐的基本设置" class="headerlink" title="☀推荐的基本设置"></a>☀推荐的基本设置</h3><p>为了后续方便修改主题设置，需要把<mark class="hl-label default">/my-blog/themes/butterfly/</mark>中的<mark class="hl-label default">_config.yml</mark>复制一份，重命名为<mark class="hl-label default">_config.butterfly.yml</mark>，放在博客的根目录，这样以后直接修改此文件里的内容就可以了，它的优先级高于&#x2F;themes&#x2F;中的config文件。</p>
-<p>注意：根目录的_config.yml是hexo的配置文件，而这里转移过来的是butterfly主题的配置文件。</p>
-<h3 id="☀自定义主题内容，让它变成你的形状"><a href="#☀自定义主题内容，让它变成你的形状" class="headerlink" title="☀自定义主题内容，让它变成你的形状"></a>☀自定义主题内容，让它变成你的形状</h3><p>在这里放一个butterfly的官方教程，很详细，基本的问题在这里都能解决<br><br><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a>     <br><br>还有更多比如播放器、live2d、特效等也可以在这里找到答案<br><br>如果你真的懒得看那就向下阅读，尽可能的快速帮助你实现配置</p>
-<hr>
-<h1 id="二-外观配置"><a href="#二-外观配置" class="headerlink" title="二.外观配置"></a>二.外观配置</h1><p>如果你已经成功完成了上面的安装步骤，接下来就开始<del>调教🥵</del>自定义你自己的网站<br><br>让我们根据“位置”来一点点完成修改</p>
-<p>如图，拿默然的补给站做一个例子<br><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/mainpage.png" alt="mainpage"></p>
-<h2 id="1-网站页面标题和logo"><a href="#1-网站页面标题和logo" class="headerlink" title="1.网站页面标题和logo"></a>1.网站页面标题和logo</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/webname.png" alt="webname"><br>在<mark class="hl-label default">_config.yml</mark>中填写内容，根据位置对号入座，比如：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">Site 网站整体设置</span><br><span class="line"><span class="function">title: 默然的补给站</span></span><br><span class="line"><span class="function"><span class="title">subtitle</span>: &#x27;一个野生的互联网存档点&#x27;</span></span><br><span class="line"><span class="function"><span class="title">description</span>: &#x27;<span class="title">Ciallo</span>～ (∠・ω&lt; )⌒★&#x27;</span></span><br><span class="line"><span class="function"><span class="title">keywords</span>:</span></span><br><span class="line"><span class="function"><span class="title">language</span>: <span class="title">zh</span>-<span class="title">CN</span></span></span><br><span class="line"><span class="function"><span class="title">timezone</span>: &#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="2-网站左上角logo和名字"><a href="#2-网站左上角logo和名字" class="headerlink" title="2.网站左上角logo和名字"></a>2.网站左上角logo和名字</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/leadname.png" alt="leadname"></p>
-<p>打开主题配置文件，修改下列内容</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line"> #Navigation Settings 右上角导航栏</span><br><span class="line"> #--------------------------------------</span><br><span class="line">nav:</span><br><span class="line"> #Navigation bar logo image</span><br><span class="line"> logo: /img/mortis.ico #把你想要的图标(推荐.ico)放在这个路径/themes/butterfly/source/img/</span><br><span class="line"> display_title: true #是否显示网站名称，填true或者false</span><br><span class="line"> display_post_title: true #是否显示文章名称（这个是选择在打开的文章界面左上角显示）</span><br><span class="line"> #Whether to fix navigation bar</span><br><span class="line"> fixed: false #固定导航栏</span><br></pre></td></tr></table></figure>
-
-
-
-<h2 id="3-网站右上角几个小菜单"><a href="#3-网站右上角几个小菜单" class="headerlink" title="3.网站右上角几个小菜单"></a>3.网站右上角几个小菜单</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/rightpage.png" alt="rightpage"></p>
-<p>在cmd输入：</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
-
-
-
-
-<p>page是“页面”，about是文件名，比如我想做一个“关于我”的个人介绍界面<br><br>这样就会在<mark class="hl-label default">/source/</mark>创建对应的页面文件，默认是单独的.md文件，你可以在此目录下创建单独的文件夹把它放进去（或者修改设置里有关创建文件夹的配置，这个后续再讲），并改名为<mark class="hl-label default">index.md</mark></p>
-<p>打开文件，在<mark class="hl-label default">title</mark>一行写下标题，它将作为展示在网站右上角的栏目名称</p>
-<p>然后在主题配置文件，找到以下代码修改，比如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line"> 首页: / || fas fa-home</span><br><span class="line"> 默然的日记: /diarymain/ ||fas fa-book</span><br><span class="line"> 关于我: /about/ ||fas fa-user</span><br><span class="line"> 友情链接: /friends/ ||fas fa-link</span><br></pre></td></tr></table></figure>
-
-<p>“&#x2F;&#x2F;”中填你刚刚创建的页面所在的单独的文件夹的名称<br><br>“||”后面是图标，可以从<a href="https://fontawesome.com/icons">https://fontawesome.com/icons</a> 或者<a href="https://fontawesome.p2hp.com/faicons.html%EF%BC%88%E4%B8%AD%E6%96%87%E7%AB%99%EF%BC%89">https://fontawesome.p2hp.com/faicons.html（中文站）</a> 找到你想要的<br></p>
-<h2 id="4-右上搜索框"><a href="#4-右上搜索框" class="headerlink" title="4.右上搜索框"></a>4.右上搜索框</h2><p>本文只提供本地搜索功能的使用，其他搜索方式自己想办法（绝对不是我懒😤）</p>
-<p>它长这样（本地搜索）<br><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/search.png" alt="search"></p>
-<p>安装本地搜索插件（记得先执行hexo clean）</p>
-<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
-
-<p>创建搜索栏的page界面，方法参考上面，创建文件夹，title记得写好。</p>
-<p>在hexo配置文件里添加这几行代码：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line"> path: search.xml</span><br><span class="line"> field: post</span><br><span class="line"> format: html</span><br></pre></td></tr></table></figure>
-
-<p>在主题配置文件里找到并修改：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line">#Search</span><br><span class="line">#--------------------------------------</span><br><span class="line">search:</span><br><span class="line"> #Choose: algolia_search / local_search / docsearch</span><br><span class="line"> use: local_search #如果你不想要搜索框就不填</span><br><span class="line"> placeholder: 搜点什么呢 #显示在搜索栏的默认文字</span><br></pre></td></tr></table></figure>
-
-<h2 id="5-副标题（可选）"><a href="#5-副标题（可选）" class="headerlink" title="5.副标题（可选）"></a>5.副标题（可选）</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/subtitle.png" alt="subtitle"></p>
-<p>在主题配置文件找到以下代码修改（翻来翻去找不到可以搜），比如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#The subtitle on homepage 副标题</span><br><span class="line">subtitle:</span><br><span class="line"> enable: true #开启或关闭</span><br><span class="line"> effect: true #打字效果</span><br><span class="line"> typed_option:</span><br><span class="line"> source: false #可以选择来源（这里我给省略了，你自己的配置文件里有注释写着的），如果是false则启用下面自己写的</span><br><span class="line"> sub: #自己想写什么写什么，多行文字就照着这个格式</span><br><span class="line"></span><br><span class="line">- &quot;你曾经来过的地方&quot;</span><br><span class="line">- &quot;哇，真的是你诶🥰&quot;</span><br><span class="line">- &quot;欢迎来到默然的空间&quot;</span><br></pre></td></tr></table></figure>
-
-<h2 id="6-网站右侧卡片"><a href="#6-网站右侧卡片" class="headerlink" title="6.网站右侧卡片"></a>6.网站右侧卡片</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/rightcard.png" alt="rightcard"></p>
-<p>在主题配置文件找到以下代码修改，对号入座：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line">#Aside Settings 侧边栏</span><br><span class="line">#--------------------------------------</span><br><span class="line">aside:</span><br><span class="line"> enable: true #是否开启卡片</span><br><span class="line"> hide: false #是否显示卡片</span><br><span class="line"> button: true #是否显示网站右下角“隐藏卡片”按钮</span><br><span class="line"> mobile: true #手机端网页是否显示</span><br><span class="line"> position: right #位置 left/right</span><br><span class="line"> display: #是否显示</span><br><span class="line"> archive: true #归档</span><br><span class="line"> tag: true #标签</span><br><span class="line"> category: true #类别</span><br><span class="line"> card_author: #作者（就是你）</span><br><span class="line"> enable: true #开关</span><br><span class="line"> description: #随便写点描述，不写就套用上面_config.yml的description，，，，，，，Ciallo～ (∠・ω&lt; )⌒★</span><br><span class="line"> button: #关注按钮的配置</span><br><span class="line"> enable: true</span><br><span class="line"> icon: fab fa-twitter</span><br><span class="line"> text: Follow Me On Twitter!🥰</span><br><span class="line"> link: https://x.com/moran_neko</span><br><span class="line"> card_announcement: #公告，写在content里</span><br><span class="line"> enable: true #开关</span><br><span class="line"> content: 欢迎来到默然补给站2.0~ &lt;br&gt;旧网站请前往moranneko.vercel.app &lt;br&gt;数据转移中  </span><br><span class="line"> card_recent_post: #懒得写了后面的一大串自己在配置文件里看吧</span><br><span class="line"> enable: true #反正只要会英文就能看得懂</span><br><span class="line"> # If set 0 will show all</span><br><span class="line"> limit: 5</span><br><span class="line"> # Sort: date / updated</span><br><span class="line"> sort: date</span><br><span class="line">......</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
-
-<h2 id="7-网站的底部"><a href="#7-网站的底部" class="headerlink" title="7.网站的底部"></a>7.网站的底部</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/bottom.png" alt="bottom"></p>
-<p>在主题配置文件找到下列代码修改，比如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line">#Footer Settings</span><br><span class="line">#--------------------------------------</span><br><span class="line">footer:</span><br><span class="line"> nav:</span><br><span class="line"> owner:</span><br><span class="line"> enable: true</span><br><span class="line"> since: 2025                        #网站创建的年代</span><br><span class="line"> #Copyright of theme and framework</span><br><span class="line"> copyright:</span><br><span class="line"> enable: true</span><br><span class="line"> version: true</span><br><span class="line"> custom_text: 恭喜你发现了一个存档点    #这还可以写行字</span><br></pre></td></tr></table></figure>
-
-<h2 id="8-右下角功能按钮"><a href="#8-右下角功能按钮" class="headerlink" title="8.右下角功能按钮"></a>8.右下角功能按钮</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/button.png" alt="button"></p>
-<p>在主题配置文件里找到下列代码修改，比如：</p>
-<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line">#Bottom right button</span><br><span class="line">#--------------------------------------</span><br><span class="line">translate:</span><br><span class="line"> enable: true #简繁转换按钮</span><br><span class="line"> default: 繁</span><br><span class="line"> defaultEncoding: 2 #1是繁体2是简体</span><br><span class="line">readmode: true #阅读模式</span><br><span class="line">darkmode:</span><br><span class="line"> enable: true #深色模式</span><br><span class="line"> button: true #深色模式按钮开关</span><br><span class="line"> autoChangeMode: false #自动深色模式</span><br><span class="line"> #Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18</span><br><span class="line"> start: 7 #自定义夜间模式开关时间</span><br><span class="line"> end: 19</span><br><span class="line">rightside_scroll_percent: true #滑动进度百分比</span><br><span class="line">rightside_config_animation: true #按钮动画</span><br></pre></td></tr></table></figure>
-
-<h1 id="3-好好好"><a href="#3-好好好" class="headerlink" title="3.好好好"></a>3.好好好</h1><p>完成各项修改之后，执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo s即可应用</p>
-<p>好，现在你已经基本完成网站的配置了。后续的懒人教程下期再说。</p>
-]]></content>
-      <categories>
-        <category>开发</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>网站</tag>
-        <tag>懒人教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>时光列车01-养不熟的猫</title>
     <url>/%E6%97%B6%E5%85%89%E5%88%97%E8%BD%A6/57a63cbac2ab/</url>
     <content><![CDATA[<p>“时光列车”是我在高中时期写的一个虚构短篇小说中出现的杂志名字<br><br>现在打算把它用在这里，也算是作为一种感慨，或者说是警醒，能让我记住曾经犯过的一些错<br><br>还有，留存那些所剩无几的那些美好回忆</p>
@@ -219,6 +118,153 @@ C
       </tags>
   </entry>
   <entry>
+    <title>未命名标题-*时光列车02</title>
+    <url>/%E6%97%B6%E5%85%89%E5%88%97%E8%BD%A6/cad6a072970b/</url>
+    <content><![CDATA[<h1 id="此页面施工中，预计九月30号完成"><a href="#此页面施工中，预计九月30号完成" class="headerlink" title="此页面施工中，预计九月30号完成"></a>此页面施工中，预计九月30号完成</h1><h1 id="敬请期待"><a href="#敬请期待" class="headerlink" title="敬请期待"></a>敬请期待</h1><blockquote>
+<p>【声明】</p>
+<p>本故事完全虚构，如有雷同纯属巧合。<br>文中涉及的疾病与医疗内容仅为虚构情节，不代表真实医学过程。<br>未经许可，请勿转载或用于商业用途。</p>
+</blockquote>
+<hr>
+<p>此文章是我高中时期所写的一个短篇的重制版，《时光列车》则是其中出现的杂志名称，因此以后的写作都会以这个名字为标题&#x2F;系列。</p>
+<p>估计会更久……总想着把内容打磨一下，和三年前写原作的时候一模一样。</p>
+<p>由于涉及时间错乱、梦境与现实的交替，我深知自己的写作水平一般，所以要尽可能地花时间优化结构和语言，让它接近成为一篇像样的作品。</p>
+<p>同时感谢各位好友的支持。</p>
+]]></content>
+      <categories>
+        <category>时光列车</category>
+      </categories>
+      <tags>
+        <tag>故事</tag>
+        <tag>原创</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>梦</title>
+    <url>/%E7%9E%8E%E6%89%AF/0de727386252/</url>
+    <content><![CDATA[<p>默然被身边的炮火声吓了一跳，她突然意识到自己身处何处。尘土的气味刺痛着鼻腔，伸手便摸到了挂在腰间的枪，记忆慢慢地恢复过来，随机毫不犹豫地和队友冲出去，穿梭在危机四伏的枪线中。</p>
+<p>抬手，瞄准，扣下扳机，飞跃护栏，翻滚，隐蔽，一套行云流水的操作，她似乎想起了当年在红桥市场的优质生涯。子弹惊险地擦过皮肤，灼热的阳光和水泥残渣刺痛着伤口和神经，炮火声是真的，但是眼前的画面在渐渐模糊，恍惚之中，无数疑问涌上心头。</p>
+<p>这里是开罗，和平军正在发动第三次进攻，士兵们不过是政客手下的棋子罢了，他们总能不费力的发出指令，刚攻下的街区或许马上又会被打回，那在此期间死去的战士们的意义何在？</p>
+<p>对面的敌人也不想打这场仗吧，四周充斥着压抑的空气，倒不像是这个季节的作风，天空也没有那么阴沉，大太阳把敌人暴露在街道和窗口，战线在推进，可是她却渐渐力不从心。</p>
+<p>顺手把一名伤员拽到隐蔽处，一针吗啡下去，面前的人眼里恢复了一些高光。叫声和枪声此起彼伏，她不得不向下一个呼救声跑去。医疗设备和药品能让人回复肉体的健康，但心灵的冲击又有谁能医治？</p>
+<p>恍惚间，她看到远处楼上狙击手的镜头在阳光下闪烁了一瞬。来不及反应，子弹咆哮着撕扯着空气，穿透了朴素的心灵。四周的枪声倒是没有停止，尘土和碎片将小小的身躯覆盖，和环境融为一体。</p>
+<p>（一阵晕眩）</p>
+<p>“我草，怎么睡着了。”默然站起来，看了一眼桌前的屏幕，BF实验室的字样还在闪烁，可能是内测完没什么事干太无聊不知不觉睡着了</p>
+<p>确实也很晚了，三点了</p>
+<p>突然弹出一个错误报告</p>
+<p>他愣了一下</p>
+<p>哦，原来是EA服务器又断联了</p>
+<hr>
+]]></content>
+      <categories>
+        <category>瞎扯</category>
+      </categories>
+      <tags>
+        <tag>游戏</tag>
+        <tag>战地</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于hexo和Butterfly的个人博客搭建-1</title>
+    <url>/%E5%BC%80%E5%8F%91/6d6b7fd8fb0f/</url>
+    <content><![CDATA[<p>本文旨在帮助对搭建个人博客有兴趣的同学快速上手，省去了部分自己查询官方教程花费的时间（也算是懒人教程了），但还是希望你自己去查找更详细的教程阅读一下<br><br>前提是需要会windows系统以及电脑的基础知识和基本操作，如果遇到一些比如“命令提示符（cmd）是什么，怎么打开”的问题，请自行搜索或者询问AI<br><br>还有，里面的示例代码仅供参考！一些由于篇幅过长没有展示全部，请勿盲目复制！</p>
+<hr>
+<h1 id="一-安装"><a href="#一-安装" class="headerlink" title="一.安装"></a>一.安装</h1><h2 id="1-必需品"><a href="#1-必需品" class="headerlink" title="1.必需品"></a>1.必需品</h2><p>下载这两个↓<br>git：<a href="https://git-scm.com/downloads/win">https://git-scm.com/downloads/win</a><br>nodejs <del>没的解释（no de j s🤣）</del>：<a href="https://nodejs.org/zh-cn/download/">https://nodejs.org/zh-cn/download/</a></p>
+<p>同时，为了方便后续编辑和修改代码，推荐下载vscode:<a href="https://code.visualstudio.com/Download">https://code.visualstudio.com/Download</a></p>
+<h2 id="2-安装hexo"><a href="#2-安装hexo" class="headerlink" title="2.安装hexo"></a>2.安装hexo</h2><h3 id="☀安装hexo-CLI"><a href="#☀安装hexo-CLI" class="headerlink" title="☀安装hexo CLI"></a>☀安装hexo CLI</h3><p>在cmd中输入</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+
+<p>等待安装完成</p>
+<p>之后可以输入 hexo -v 查看版本号，确认是否安装成功</p>
+<h3 id="☀初始化"><a href="#☀初始化" class="headerlink" title="☀初始化"></a>☀初始化</h3><p>选择你想放博客文件的位置，比如D盘，然后在cmd中输入：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line"><span class="function">D:             #或者你想放的其他位置</span></span><br><span class="line"><span class="function"><span class="title">hexo</span> <span class="title">init</span> <span class="title">my</span>-<span class="title">blog</span></span></span><br><span class="line"><span class="function"><span class="title">cd</span> <span class="title">my</span>-<span class="title">blog</span></span></span><br><span class="line"><span class="function"><span class="title">npm</span> <span class="title">install</span></span></span><br></pre></td></tr></table></figure>
+
+
+
+
+<p>这样你的博客就会安装在<mark class="hl-label default">D:/my-blog/</mark></p>
+<h3 id="☀预览"><a href="#☀预览" class="headerlink" title="☀预览"></a>☀预览</h3><p>在cmd中输入以下命令运行本地服务器：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo clean &amp;&amp; hexo g &amp;&amp; hexo s # 清理+创建页面+运行本地服务器</span><br></pre></td></tr></table></figure>
+
+
+
+
+<p>然后在浏览器访问<mark class="hl-label default">localhost:4000</mark>，就可以看到一个默认的hexo博客页面啦</p>
+<h2 id="3-安装butterfly"><a href="#3-安装butterfly" class="headerlink" title="3.安装butterfly"></a>3.安装butterfly</h2><p>继续在cmd里（你不会给关上了吧？注意cmd路径要在你的博客位置，比如D:&#x2F;my-blog）输入：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly # 下载butterfly主题</span><br><span class="line">npm install hexo-renderer-pug hexo-renderer-stylus --save # 安装渲染器（方便后续加一些有意思的东西）</span><br></pre></td></tr></table></figure>
+
+
+
+<h3 id="☀推荐的基本设置"><a href="#☀推荐的基本设置" class="headerlink" title="☀推荐的基本设置"></a>☀推荐的基本设置</h3><p>为了后续方便修改主题设置，需要把<mark class="hl-label default">/my-blog/themes/butterfly/</mark>中的<mark class="hl-label default">_config.yml</mark>复制一份，重命名为<mark class="hl-label default">_config.butterfly.yml</mark>，放在博客的根目录，这样以后直接修改此文件里的内容就可以了，它的优先级高于&#x2F;themes&#x2F;中的config文件。</p>
+<p>注意：根目录的_config.yml是hexo的配置文件，而这里转移过来的是butterfly主题的配置文件。</p>
+<h3 id="☀自定义主题内容，让它变成你的形状"><a href="#☀自定义主题内容，让它变成你的形状" class="headerlink" title="☀自定义主题内容，让它变成你的形状"></a>☀自定义主题内容，让它变成你的形状</h3><p>在这里放一个butterfly的官方教程，很详细，基本的问题在这里都能解决<br><br><a href="https://butterfly.js.org/posts/4aa8abbe/">https://butterfly.js.org/posts/4aa8abbe/</a>     <br><br>还有更多比如播放器、live2d、特效等也可以在这里找到答案<br><br>如果你真的懒得看那就向下阅读，尽可能的快速帮助你实现配置</p>
+<hr>
+<h1 id="二-外观配置"><a href="#二-外观配置" class="headerlink" title="二.外观配置"></a>二.外观配置</h1><p>如果你已经成功完成了上面的安装步骤，接下来就开始<del>调教🥵</del>自定义你自己的网站<br><br>让我们根据“位置”来一点点完成修改</p>
+<p>如图，拿默然的补给站做一个例子<br><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/mainpage.png" alt="mainpage"></p>
+<h2 id="1-网站页面标题和logo"><a href="#1-网站页面标题和logo" class="headerlink" title="1.网站页面标题和logo"></a>1.网站页面标题和logo</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/webname.png" alt="webname"><br>在<mark class="hl-label default">_config.yml</mark>中填写内容，根据位置对号入座，比如：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">Site 网站整体设置</span><br><span class="line"><span class="function">title: 默然的补给站</span></span><br><span class="line"><span class="function"><span class="title">subtitle</span>: &#x27;一个野生的互联网存档点&#x27;</span></span><br><span class="line"><span class="function"><span class="title">description</span>: &#x27;<span class="title">Ciallo</span>～ (∠・ω&lt; )⌒★&#x27;</span></span><br><span class="line"><span class="function"><span class="title">keywords</span>:</span></span><br><span class="line"><span class="function"><span class="title">language</span>: <span class="title">zh</span>-<span class="title">CN</span></span></span><br><span class="line"><span class="function"><span class="title">timezone</span>: &#x27;&#x27;</span></span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="2-网站左上角logo和名字"><a href="#2-网站左上角logo和名字" class="headerlink" title="2.网站左上角logo和名字"></a>2.网站左上角logo和名字</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/leadname.png" alt="leadname"></p>
+<p>打开主题配置文件，修改下列内容</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line"> #Navigation Settings 右上角导航栏</span><br><span class="line"> #--------------------------------------</span><br><span class="line">nav:</span><br><span class="line"> #Navigation bar logo image</span><br><span class="line"> logo: /img/mortis.ico #把你想要的图标(推荐.ico)放在这个路径/themes/butterfly/source/img/</span><br><span class="line"> display_title: true #是否显示网站名称，填true或者false</span><br><span class="line"> display_post_title: true #是否显示文章名称（这个是选择在打开的文章界面左上角显示）</span><br><span class="line"> #Whether to fix navigation bar</span><br><span class="line"> fixed: false #固定导航栏</span><br></pre></td></tr></table></figure>
+
+
+
+<h2 id="3-网站右上角几个小菜单"><a href="#3-网站右上角几个小菜单" class="headerlink" title="3.网站右上角几个小菜单"></a>3.网站右上角几个小菜单</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/rightpage.png" alt="rightpage"></p>
+<p>在cmd输入：</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">hexo new page about</span><br></pre></td></tr></table></figure>
+
+
+
+
+<p>page是“页面”，about是文件名，比如我想做一个“关于我”的个人介绍界面<br><br>这样就会在<mark class="hl-label default">/source/</mark>创建对应的页面文件，默认是单独的.md文件，你可以在此目录下创建单独的文件夹把它放进去（或者修改设置里有关创建文件夹的配置，这个后续再讲），并改名为<mark class="hl-label default">index.md</mark></p>
+<p>打开文件，在<mark class="hl-label default">title</mark>一行写下标题，它将作为展示在网站右上角的栏目名称</p>
+<p>然后在主题配置文件，找到以下代码修改，比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">menu:</span><br><span class="line"> 首页: / || fas fa-home</span><br><span class="line"> 默然的日记: /diarymain/ ||fas fa-book</span><br><span class="line"> 关于我: /about/ ||fas fa-user</span><br><span class="line"> 友情链接: /friends/ ||fas fa-link</span><br></pre></td></tr></table></figure>
+
+<p>“&#x2F;&#x2F;”中填你刚刚创建的页面所在的单独的文件夹的名称<br><br>“||”后面是图标，可以从<a href="https://fontawesome.com/icons">https://fontawesome.com/icons</a> 或者<a href="https://fontawesome.p2hp.com/faicons.html%EF%BC%88%E4%B8%AD%E6%96%87%E7%AB%99%EF%BC%89">https://fontawesome.p2hp.com/faicons.html（中文站）</a> 找到你想要的<br></p>
+<h2 id="4-右上搜索框"><a href="#4-右上搜索框" class="headerlink" title="4.右上搜索框"></a>4.右上搜索框</h2><p>本文只提供本地搜索功能的使用，其他搜索方式自己想办法（绝对不是我懒😤）</p>
+<p>它长这样（本地搜索）<br><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/search.png" alt="search"></p>
+<p>安装本地搜索插件（记得先执行hexo clean）</p>
+<figure class="highlight cmd"><table><tr><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+
+<p>创建搜索栏的page界面，方法参考上面，创建文件夹，title记得写好。</p>
+<p>在hexo配置文件里添加这几行代码：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">search:</span><br><span class="line"> path: search.xml</span><br><span class="line"> field: post</span><br><span class="line"> format: html</span><br></pre></td></tr></table></figure>
+
+<p>在主题配置文件里找到并修改：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line">#Search</span><br><span class="line">#--------------------------------------</span><br><span class="line">search:</span><br><span class="line"> #Choose: algolia_search / local_search / docsearch</span><br><span class="line"> use: local_search #如果你不想要搜索框就不填</span><br><span class="line"> placeholder: 搜点什么呢 #显示在搜索栏的默认文字</span><br></pre></td></tr></table></figure>
+
+<h2 id="5-副标题（可选）"><a href="#5-副标题（可选）" class="headerlink" title="5.副标题（可选）"></a>5.副标题（可选）</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/subtitle.png" alt="subtitle"></p>
+<p>在主题配置文件找到以下代码修改（翻来翻去找不到可以搜），比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#The subtitle on homepage 副标题</span><br><span class="line">subtitle:</span><br><span class="line"> enable: true #开启或关闭</span><br><span class="line"> effect: true #打字效果</span><br><span class="line"> typed_option:</span><br><span class="line"> source: false #可以选择来源（这里我给省略了，你自己的配置文件里有注释写着的），如果是false则启用下面自己写的</span><br><span class="line"> sub: #自己想写什么写什么，多行文字就照着这个格式</span><br><span class="line"></span><br><span class="line">- &quot;你曾经来过的地方&quot;</span><br><span class="line">- &quot;哇，真的是你诶🥰&quot;</span><br><span class="line">- &quot;欢迎来到默然的空间&quot;</span><br></pre></td></tr></table></figure>
+
+<h2 id="6-网站右侧卡片"><a href="#6-网站右侧卡片" class="headerlink" title="6.网站右侧卡片"></a>6.网站右侧卡片</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/rightcard.png" alt="rightcard"></p>
+<p>在主题配置文件找到以下代码修改，对号入座：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line">#Aside Settings 侧边栏</span><br><span class="line">#--------------------------------------</span><br><span class="line">aside:</span><br><span class="line"> enable: true #是否开启卡片</span><br><span class="line"> hide: false #是否显示卡片</span><br><span class="line"> button: true #是否显示网站右下角“隐藏卡片”按钮</span><br><span class="line"> mobile: true #手机端网页是否显示</span><br><span class="line"> position: right #位置 left/right</span><br><span class="line"> display: #是否显示</span><br><span class="line"> archive: true #归档</span><br><span class="line"> tag: true #标签</span><br><span class="line"> category: true #类别</span><br><span class="line"> card_author: #作者（就是你）</span><br><span class="line"> enable: true #开关</span><br><span class="line"> description: #随便写点描述，不写就套用上面_config.yml的description，，，，，，，Ciallo～ (∠・ω&lt; )⌒★</span><br><span class="line"> button: #关注按钮的配置</span><br><span class="line"> enable: true</span><br><span class="line"> icon: fab fa-twitter</span><br><span class="line"> text: Follow Me On Twitter!🥰</span><br><span class="line"> link: https://x.com/moran_neko</span><br><span class="line"> card_announcement: #公告，写在content里</span><br><span class="line"> enable: true #开关</span><br><span class="line"> content: 欢迎来到默然补给站2.0~ &lt;br&gt;旧网站请前往moranneko.vercel.app &lt;br&gt;数据转移中  </span><br><span class="line"> card_recent_post: #懒得写了后面的一大串自己在配置文件里看吧</span><br><span class="line"> enable: true #反正只要会英文就能看得懂</span><br><span class="line"> # If set 0 will show all</span><br><span class="line"> limit: 5</span><br><span class="line"> # Sort: date / updated</span><br><span class="line"> sort: date</span><br><span class="line">......</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+
+<h2 id="7-网站的底部"><a href="#7-网站的底部" class="headerlink" title="7.网站的底部"></a>7.网站的底部</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/bottom.png" alt="bottom"></p>
+<p>在主题配置文件找到下列代码修改，比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line">#Footer Settings</span><br><span class="line">#--------------------------------------</span><br><span class="line">footer:</span><br><span class="line"> nav:</span><br><span class="line"> owner:</span><br><span class="line"> enable: true</span><br><span class="line"> since: 2025                        #网站创建的年代</span><br><span class="line"> #Copyright of theme and framework</span><br><span class="line"> copyright:</span><br><span class="line"> enable: true</span><br><span class="line"> version: true</span><br><span class="line"> custom_text: 恭喜你发现了一个存档点    #这还可以写行字</span><br></pre></td></tr></table></figure>
+
+<h2 id="8-右下角功能按钮"><a href="#8-右下角功能按钮" class="headerlink" title="8.右下角功能按钮"></a>8.右下角功能按钮</h2><p><img src="/images/%E5%9F%BA%E4%BA%8Ehexo%E5%92%8CButterfly%E7%9A%84%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/button.png" alt="button"></p>
+<p>在主题配置文件里找到下列代码修改，比如：</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">#--------------------------------------</span><br><span class="line">#Bottom right button</span><br><span class="line">#--------------------------------------</span><br><span class="line">translate:</span><br><span class="line"> enable: true #简繁转换按钮</span><br><span class="line"> default: 繁</span><br><span class="line"> defaultEncoding: 2 #1是繁体2是简体</span><br><span class="line">readmode: true #阅读模式</span><br><span class="line">darkmode:</span><br><span class="line"> enable: true #深色模式</span><br><span class="line"> button: true #深色模式按钮开关</span><br><span class="line"> autoChangeMode: false #自动深色模式</span><br><span class="line"> #Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18</span><br><span class="line"> start: 7 #自定义夜间模式开关时间</span><br><span class="line"> end: 19</span><br><span class="line">rightside_scroll_percent: true #滑动进度百分比</span><br><span class="line">rightside_config_animation: true #按钮动画</span><br></pre></td></tr></table></figure>
+
+<h1 id="3-好好好"><a href="#3-好好好" class="headerlink" title="3.好好好"></a>3.好好好</h1><p>完成各项修改之后，执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo s即可应用</p>
+<p>好，现在你已经基本完成网站的配置了。后续的懒人教程下期再说。</p>
+]]></content>
+      <categories>
+        <category>开发</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>网站</tag>
+        <tag>懒人教程</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>补给站开发中（Alpha）</title>
     <url>/%E8%A1%A5%E7%BB%99%E7%AB%99%E5%9F%BA%E5%BB%BA/d52dcd89038e/</url>
     <content><![CDATA[<p>网站处于测试阶段，有很多地方都尚未完善！不喜勿喷</p>
@@ -309,31 +355,6 @@ C
       <tags>
         <tag>开发</tag>
         <tag>笨蛋</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>梦</title>
-    <url>/%E7%9E%8E%E6%89%AF/0de727386252/</url>
-    <content><![CDATA[<p>默然被身边的炮火声吓了一跳，她突然意识到自己身处何处。尘土的气味刺痛着鼻腔，伸手便摸到了挂在腰间的枪，记忆慢慢地恢复过来，随机毫不犹豫地和队友冲出去，穿梭在危机四伏的枪线中。</p>
-<p>抬手，瞄准，扣下扳机，飞跃护栏，翻滚，隐蔽，一套行云流水的操作，她似乎想起了当年在红桥市场的优质生涯。子弹惊险地擦过皮肤，灼热的阳光和水泥残渣刺痛着伤口和神经，炮火声是真的，但是眼前的画面在渐渐模糊，恍惚之中，无数疑问涌上心头。</p>
-<p>这里是开罗，和平军正在发动第三次进攻，士兵们不过是政客手下的棋子罢了，他们总能不费力的发出指令，刚攻下的街区或许马上又会被打回，那在此期间死去的战士们的意义何在？</p>
-<p>对面的敌人也不想打这场仗吧，四周充斥着压抑的空气，倒不像是这个季节的作风，天空也没有那么阴沉，大太阳把敌人暴露在街道和窗口，战线在推进，可是她却渐渐力不从心。</p>
-<p>顺手把一名伤员拽到隐蔽处，一针吗啡下去，面前的人眼里恢复了一些高光。叫声和枪声此起彼伏，她不得不向下一个呼救声跑去。医疗设备和药品能让人回复肉体的健康，但心灵的冲击又有谁能医治？</p>
-<p>恍惚间，她看到远处楼上狙击手的镜头在阳光下闪烁了一瞬。来不及反应，子弹咆哮着撕扯着空气，穿透了朴素的心灵。四周的枪声倒是没有停止，尘土和碎片将小小的身躯覆盖，和环境融为一体。</p>
-<p>（一阵晕眩）</p>
-<p>“我草，怎么睡着了。”默然站起来，看了一眼桌前的屏幕，BF实验室的字样还在闪烁，可能是内测完没什么事干太无聊不知不觉睡着了</p>
-<p>确实也很晚了，三点了</p>
-<p>突然弹出一个错误报告</p>
-<p>他愣了一下</p>
-<p>哦，原来是EA服务器又断联了</p>
-<hr>
-]]></content>
-      <categories>
-        <category>瞎扯</category>
-      </categories>
-      <tags>
-        <tag>游戏</tag>
-        <tag>战地</tag>
       </tags>
   </entry>
   <entry>
