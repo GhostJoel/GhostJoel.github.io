@@ -1,3 +1,4 @@
+http://moran-neko.moe/friends/
 http://moran-neko.moe/diarymain/
 http://moran-neko.moe/diary/20251004/
 http://moran-neko.moe/diary/20251003/
@@ -16,7 +17,6 @@ http://moran-neko.moe/diary/20250915/
 http://moran-neko.moe/diary/20250913/
 http://moran-neko.moe/diary/20250903/
 http://moran-neko.moe/diary/20250905/
-http://moran-neko.moe/friends/
 http://moran-neko.moe/diary/20250902/
 http://moran-neko.moe/diary/20250901/
 http://moran-neko.moe/diary/20250831/
