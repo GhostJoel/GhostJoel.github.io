@@ -1,3 +1,4 @@
+http://moran-neko.moe/friends/
 http://moran-neko.moe/coffee/
 http://moran-neko.moe/diarymain/
 http://moran-neko.moe/diary/20251101/
@@ -12,7 +13,6 @@ http://moran-neko.moe/diary/20251009/
 http://moran-neko.moe/steamapi/
 http://moran-neko.moe/diary/20251008/
 http://moran-neko.moe/%E8%A1%A5%E7%BB%99%E7%AB%99%E5%9F%BA%E5%BB%BA/d52dcd89038e/
-http://moran-neko.moe/friends/
 http://moran-neko.moe/diary/%E9%9F%B3%E4%B9%90%E7%94%9F%E5%91%BD%E7%BA%BF/
 http://moran-neko.moe/%E8%8A%82%E6%97%A5/15552aaf6c9e/
 http://moran-neko.moe/diary/20251004/
