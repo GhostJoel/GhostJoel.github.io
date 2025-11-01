@@ -551,6 +551,13 @@ C
         </div>
         <div class='timeline-item-content'><p>换了背景图</p>
 </div>
+      </div><div class='timeline-item'>
+        <div class='timeline-item-title'>
+          <div class='item-circle'><p>11-02</p>
+</div>
+        </div>
+        <div class='timeline-item-content'><p>使用了cloudflare加速，国内也可以访问了！<br>友链更新</p>
+</div>
       </div></div>
 
 
