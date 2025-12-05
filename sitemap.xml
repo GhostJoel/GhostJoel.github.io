@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://moran-neko.moe/diarymain/</loc>
+    
+    <lastmod>2025-12-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://moran-neko.moe/diary/20251205/</loc>
     
     <lastmod>2025-12-05</lastmod>
@@ -59,15 +68,6 @@
     <loc>http://moran-neko.moe/diary/20251117/</loc>
     
     <lastmod>2025-11-17</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://moran-neko.moe/diarymain/</loc>
-    
-    <lastmod>2025-11-09</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
