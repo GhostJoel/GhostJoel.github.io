@@ -57,7 +57,7 @@
 /* -------------------------------------------- */
 /* ====== Source Han Serif 全站字体 ====== */
 /* ====== Source Han Serif 全站统一加粗优化 ====== */
-
+/* ===== 字体声明 ===== */
 @font-face {
   font-family: "SourceHanSerifCustom";
   src: url("/fonts/SourceHanSerifCN-Regular.woff2") format("woff2");
@@ -76,27 +76,35 @@
 
 @font-face {
   font-family: "SourceHanSerifCustom";
+  src: url("/fonts/SourceHanSerifCN-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "SourceHanSerifCustom";
   src: url("/fonts/SourceHanSerifCN-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
   font-display: swap;
 }
 
-/* 默认全站字体 */
+/* ===== 基础字体 ===== */
 body, button, input, textarea {
   font-family: "SourceHanSerifCustom", serif !important;
   font-size: 17px;
-  font-weight: 500; /* 全站字体略粗 */
+  font-weight: 400;  /* UI 区域保持清爽 */
 }
 
-/* 文章阅读区优化 */
+/* ===== 正文阅读区 ===== */
 #article-container {
   font-size: 18px;
   line-height: 1.9;
-  font-weight: 500;
+  font-weight: 500;  /* 阅读区加厚 */
 }
 
-/* 标题稍微粗一点 */
+/* ===== 标题 ===== */
 h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
 }
