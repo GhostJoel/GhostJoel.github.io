@@ -1,3 +1,4 @@
+http://moran-neko.moe/%E6%97%B6%E5%85%89%E5%88%97%E8%BD%A6/b22f72e4e37e/
 http://moran-neko.moe/diarymain/
 http://moran-neko.moe/diary/20260304/
 http://moran-neko.moe/%E6%97%B6%E5%85%89%E5%88%97%E8%BD%A6/a404e16204ae/
@@ -120,6 +121,7 @@ http://moran-neko.moe/tags/%E7%BD%91%E7%AB%99/
 http://moran-neko.moe/tags/%E6%87%92%E4%BA%BA%E6%95%99%E7%A8%8B/
 http://moran-neko.moe/tags/%E5%BC%80%E5%8F%91/
 http://moran-neko.moe/tags/%E7%AC%A8%E8%9B%8B/
+http://moran-neko.moe/tags/%E8%8D%89%E7%A8%BF/
 http://moran-neko.moe/categories/%E6%97%B6%E5%85%89%E5%88%97%E8%BD%A6/
 http://moran-neko.moe/categories/%E5%BC%80%E5%8F%91/
 http://moran-neko.moe/categories/%E8%A1%A5%E7%BB%99%E7%AB%99%E5%9F%BA%E5%BB%BA/
