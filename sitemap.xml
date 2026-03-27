@@ -1073,13 +1073,6 @@
 
   
   <url>
-    <loc>http://moran-neko.moe/tags/%E5%9B%9E%E5%BF%86/</loc>
-    <lastmod>2026-03-27</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://moran-neko.moe/tags/%E6%9D%82%E8%B0%88/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
@@ -1094,7 +1087,7 @@
   </url>
   
   <url>
-    <loc>http://moran-neko.moe/tags/%E9%9A%8F%E8%AE%B0/</loc>
+    <loc>http://moran-neko.moe/tags/%E5%9B%9E%E5%BF%86/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -1116,6 +1109,13 @@
   
   <url>
     <loc>http://moran-neko.moe/tags/%E6%95%85%E4%BA%8B/</loc>
+    <lastmod>2026-03-27</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://moran-neko.moe/tags/%E9%9A%8F%E8%AE%B0/</loc>
     <lastmod>2026-03-27</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
