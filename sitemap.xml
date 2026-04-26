@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://moran-neko.moe/%E9%80%9A%E7%9F%A5/28673ba6250b/</loc>
+    
+    <lastmod>2026-04-26</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://moran-neko.moe/about/</loc>
     
     <lastmod>2026-04-26</lastmod>
@@ -1172,6 +1181,13 @@
     <priority>0.2</priority>
   </url>
   
+  <url>
+    <loc>http://moran-neko.moe/tags/%E9%80%9A%E7%9F%A5/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
 
   
   <url>
@@ -1190,6 +1206,13 @@
   
   <url>
     <loc>http://moran-neko.moe/categories/%E8%A1%A5%E7%BB%99%E7%AB%99%E5%9F%BA%E5%BB%BA/</loc>
+    <lastmod>2026-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://moran-neko.moe/categories/%E9%80%9A%E7%9F%A5/</loc>
     <lastmod>2026-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
