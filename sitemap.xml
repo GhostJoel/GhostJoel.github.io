@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://moran-neko.moe/moment/20260905-3</loc>
+    
+    <lastmod>2026-09-05</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://moran-neko.moe/moment/20260905-4</loc>
     
     <lastmod>2026-09-05</lastmod>
@@ -21,15 +30,6 @@
   
   <url>
     <loc>http://moran-neko.moe/diary/20260905/</loc>
-    
-    <lastmod>2026-09-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://moran-neko.moe/moment/20260905-3</loc>
     
     <lastmod>2026-09-05</lastmod>
     
