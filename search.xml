@@ -140,30 +140,6 @@ C
       </tags>
   </entry>
   <entry>
-    <title>逃离三平米</title>
-    <url>/%E6%97%B6%E5%85%89%E5%88%97%E8%BD%A6/aa3c92b28d5c/</url>
-    <content><![CDATA[<p>其实就像这篇随记一样，我还是没有想好该如何开始这个新学期，如何开始新生活。</p>
-<p>很多时候还是整日机械地重复着一些日常，在游戏和音乐里逃离现实。</p>
-<p>六个月过去了，我却记不清大部分的事情，就像身体里有个人主动删掉了让我不高兴的记忆，但这样倒也挺好的。</p>
-<p>昨天是校园跑第一天，跑完步之后累的要死，但在这之外我感受到了很久没有体会到的，精神上的轻松。身边的喧闹，植物的青绿，美丽的晚霞，让我找回了“存在感”。果然运动使人健康，不仅在肉体，还在精神上。</p>
-<p>回到宿舍发呆了好久，慢慢的无数被埋藏起来的心情重新显现，想看的番，想去的地方，没实现的愿望，立下的目标，他们都依然在那里等我。</p>
-<p>时间还久着呢，我才大二，还有大把的青春可以用来做很多的事。</p>
-<p>其实已经渐渐地做出了改变，重拾起来了电吉他，清理掉了堆在柜子边的快递盒(最开始是打算拿来放东西的，但时间长了堆得越来越多就变成了垃圾)，整理了柜子，尝试新的领域(这个博客)。</p>
-<p>椅子是会让人生根的，空间也是，所以我该走出去。</p>
-<p>新的生活会开始的。</p>
-<blockquote>
-<p>有点乱的桌面，明明前天才整理过…….<br><img src="/images/%E9%80%83%E7%A6%BB%E4%B8%89%E5%B9%B3%E6%96%B9/mytable.jpg" alt="mytable.jpg"></p>
-</blockquote>
-<p>语言都没生机了,,,我上学期过的到底是什么阴暗的日子……</p>
-]]></content>
-      <categories>
-        <category>时光列车</category>
-      </categories>
-      <tags>
-        <tag>随记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>当我俯瞰过往</title>
     <url>/%E6%97%B6%E5%85%89%E5%88%97%E8%BD%A6/abf11145a7ce/</url>
     <content><![CDATA[<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=2&id=2611969897&auto=1&height=66"></iframe>
@@ -189,6 +165,30 @@ C
       </categories>
       <tags>
         <tag>杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>逃离三平米</title>
+    <url>/%E6%97%B6%E5%85%89%E5%88%97%E8%BD%A6/aa3c92b28d5c/</url>
+    <content><![CDATA[<p>其实就像这篇随记一样，我还是没有想好该如何开始这个新学期，如何开始新生活。</p>
+<p>很多时候还是整日机械地重复着一些日常，在游戏和音乐里逃离现实。</p>
+<p>六个月过去了，我却记不清大部分的事情，就像身体里有个人主动删掉了让我不高兴的记忆，但这样倒也挺好的。</p>
+<p>昨天是校园跑第一天，跑完步之后累的要死，但在这之外我感受到了很久没有体会到的，精神上的轻松。身边的喧闹，植物的青绿，美丽的晚霞，让我找回了“存在感”。果然运动使人健康，不仅在肉体，还在精神上。</p>
+<p>回到宿舍发呆了好久，慢慢的无数被埋藏起来的心情重新显现，想看的番，想去的地方，没实现的愿望，立下的目标，他们都依然在那里等我。</p>
+<p>时间还久着呢，我才大二，还有大把的青春可以用来做很多的事。</p>
+<p>其实已经渐渐地做出了改变，重拾起来了电吉他，清理掉了堆在柜子边的快递盒(最开始是打算拿来放东西的，但时间长了堆得越来越多就变成了垃圾)，整理了柜子，尝试新的领域(这个博客)。</p>
+<p>椅子是会让人生根的，空间也是，所以我该走出去。</p>
+<p>新的生活会开始的。</p>
+<blockquote>
+<p>有点乱的桌面，明明前天才整理过…….<br><img src="/images/%E9%80%83%E7%A6%BB%E4%B8%89%E5%B9%B3%E6%96%B9/mytable.jpg" alt="mytable.jpg"></p>
+</blockquote>
+<p>语言都没生机了,,,我上学期过的到底是什么阴暗的日子……</p>
+]]></content>
+      <categories>
+        <category>时光列车</category>
+      </categories>
+      <tags>
+        <tag>随记</tag>
       </tags>
   </entry>
   <entry>
@@ -351,111 +351,6 @@ C
       </tags>
   </entry>
   <entry>
-    <title>基于Hexo和Butterfly的个人博客搭建-2</title>
-    <url>/%E5%BC%80%E5%8F%91/3c57b938cf7f/</url>
-    <content><![CDATA[<p>本文旨在帮助对搭建个人博客有兴趣的同学快速上手，省去了部分自己查询官方教程花费的时间（也算是懒人教程了），但还是希望你自己去查找更详细的教程阅读一下<br><br>前提是需要会windows系统以及电脑的基础知识和基本操作，如果遇到一些比如“命令提示符（cmd）是什么，怎么打开”的问题，请自行搜索或者询问AI<br><br>还有，里面的示例代码仅供参考！一些由于篇幅过长没有展示全部，请勿盲目复制！</p>
-<hr>
-<p>上次我们已经完成了基本的配置和外观自定义，现在让我们将自己的博客部署到Github，使其能在互联网上访问。</p>
-<h1 id="一-配置Github"><a href="#一-配置Github" class="headerlink" title="一.配置Github"></a>一.配置Github</h1><h2 id="1-创建仓库"><a href="#1-创建仓库" class="headerlink" title="1.创建仓库"></a>1.创建仓库</h2><p>如果你没有Github账号，先去注册一个。</p>
-<p>在Github点击右上角 “+” → New repository<br><br>创建新仓库，命名为<mark class="hl-label default"><用户名>.github.io</mark>，默认分支为main。<br><br>比如你的Github用户名是114514，仓库就建成<mark class="hl-label default">114514.github.io</mark></p>
-<h2 id="2-连接到Github"><a href="#2-连接到Github" class="headerlink" title="2.连接到Github"></a>2.连接到Github</h2><h3 id="☀生成SSH-key"><a href="#☀生成SSH-key" class="headerlink" title="☀生成SSH key"></a>☀生成SSH key</h3><p>在cmd中输入：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh-keygen -t ed25519 -C 你注册GitHub用的邮箱</span><br></pre></td></tr></table></figure>
-
-
-<p>此时他会出现:<br><br>enter file in which to save the key (C:\Users\xxx &#x2F;.ssh&#x2F;id_ed25519): <br><br>直接按回车键使用默认路径<br><br>然后会出现<br><br>enter passphrase (empty for no passphrase): <br><br>直接回车跳过<br><br>enter same passphrase again: <br><br>要求再输入一次确认，就再按一次回车<br><br>最后应该会看到这样的输出：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">Your identification has been saved in C:\Users\xxx\.ssh\id_ed25519</span><br><span class="line">Your public key has been saved in C:\Users\xxx\.ssh\id_ed25519.pub</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
-
-<p>这是示例的过程：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">C:\Users\xxx&gt;ssh-keygen -t ed25519 -C &quot;你的邮箱&quot;</span><br><span class="line">Generating public/private ed25519 key pair.</span><br><span class="line">Enter file in which to save the key (C:\Users\xxx/.ssh/id_ed25519):</span><br><span class="line">Created directory &#x27;C:\\Users\\xxx/.ssh&#x27;.</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identification has been saved in C:\Users\xxx/.ssh/id_ed25519</span><br><span class="line">Your public key has been saved in C:\Users\xxx/.ssh/id_ed25519.pub</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 你的邮箱</span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+--[ED25519 256]--+</span><br><span class="line">|                 |</span><br><span class="line">|                .|</span><br><span class="line">|               + |</span><br><span class="line">| 此处省略六行     |</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></table></figure>
-
-<p>这样就成功了。</p>
-<h3 id="☀把公钥添加到Github"><a href="#☀把公钥添加到Github" class="headerlink" title="☀把公钥添加到Github"></a>☀把公钥添加到Github</h3><p>在cmd中输入:</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">type %USERPROFILE%\.ssh\id_ed25519.pub</span><br></pre></td></tr></table></figure>
-<p>这会输出你那一整行公钥，比如：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh-ed25519 AAAAC3Nz...很长的一串... 你的邮箱</span><br></pre></td></tr></table></figure>
-
-<p>复制整行，包括开头的 ssh-ed25519 和结尾的邮箱，一字不漏。</p>
-<p>在Github设置里(<a href="https://github.com/settings/keys">https://github.com/settings/keys</a>)<br><br>点击右上角绿色按钮 “New SSH key”<br><br>填写信息：<br><br>Title：随便填，比如 Windows主机<br><br>Key：粘贴你刚才复制的那一整行<br><br>点击 [Add SSH key]<br></p>
-<h3 id="☀测试连接"><a href="#☀测试连接" class="headerlink" title="☀测试连接"></a>☀测试连接</h3><p>回到cmd中输入：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
-
-<p>如果是第一次，会显示：Are you sure you want to continue connecting (yes&#x2F;no)? ，输入yes。<br><br>然后应该看到：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">Hi 114514! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
-
-<p>这样就配置成功了。</p>
-<p>然后在hexo配置文件<mark class="hl-label default">_config.yml</mark>中修改：</p>
-<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@ssh.github.com:用户名/用户名.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br><span class="line">  <span class="attr">message:</span> <span class="string">&quot;Deploy: <span class="template-variable">&#123;&#123; now(&#x27;YYYY-MM-DD HH:mm:ss&#x27;) &#125;&#125;</span>&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>注意是<mark class="hl-label default">git@ssh.github.com:用户名/仓库名.git</mark></p>
-<p>这样就完成了！</p>
-<h2 id="3-可能出现的网络问题"><a href="#3-可能出现的网络问题" class="headerlink" title="3.可能出现的网络问题"></a>3.可能出现的网络问题</h2><p>如果输出的是</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh: connect to host github.com port 22: Connection refused</span><br></pre></td></tr></table></figure>
-
-<p>说明你的网络环境（可能是校园网、防火墙、运营商）屏蔽了 SSH 默认使用的端口，这是国内用户常见问题。<br><br>我们可以使用 GitHub 提供的 备用 SSH 域名 ssh.github.com + 端口 443 来规避限制。<br></p>
-<p>运行以下命令，将 SSH 对 GitHub 的连接设置为走 443 端口：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">git config --global ssh.variant ssh</span><br><span class="line">git config --global url.&quot;ssh://git@ssh.github.com:443/&quot;.insteadOf git@github.com:</span><br></pre></td></tr></table></figure>
-
-<p>然后尝试运行：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh -T git@ssh.github.com -p 443</span><br></pre></td></tr></table></figure>
-
-<p>如果出现上述的成功通知，就完成配置了</p>
-<p>这是示例的过程：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">C:\Users\xxx&gt;ssh -T git@ssh.github.com -p 443</span><br><span class="line">The authenticity of host &#x27;[ssh.github.com]:443 ([xx.xxx.xxx.xxx]:443)&#x27; can&#x27;t be established.</span><br><span class="line">ED25519 key fingerprint is SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.</span><br><span class="line">This key is not known by any other names.</span><br><span class="line">Are you sure you want to continue connecting (yes/no/[fingerprint])?</span><br><span class="line">yes</span><br><span class="line">Warning: Permanently added &#x27;[ssh.github.com]:443&#x27; (ED25519) to the list of known hosts.</span><br><span class="line">Hi 114514! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
-
-<p>然后再在hexo配置文件里修改端口为443：</p>
-<figure class="highlight plaintext"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: ssh://git@ssh.github.com:443/用户名/仓库名.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
-
-<p>然后确保全局走443端口，在cmd中输入：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">git config --global url.&quot;ssh://git@ssh.github.com:443/&quot;.insteadOf git@github.com:</span><br></pre></td></tr></table></figure>
-
-<p>现在你就可以hexo clean &amp;&amp; hexo g &amp;&amp; hexo d来推送到Github了。</p>
-<h2 id="4-部署时可能出现的的问题"><a href="#4-部署时可能出现的的问题" class="headerlink" title="4.部署时可能出现的的问题"></a>4.部署时可能出现的的问题</h2><h3 id="问题1"><a href="#问题1" class="headerlink" title="问题1"></a>问题1</h3><p>如果你在执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d出现类似：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">*** Please tell me who you are.</span><br><span class="line"></span><br><span class="line">Run</span><br><span class="line">  git config --global user.email &quot;you@example.com&quot;</span><br><span class="line">  git config --global user.name &quot;Your Name&quot;</span><br><span class="line"></span><br><span class="line">to set your account&#x27;s default identity.</span><br><span class="line">Omit --global to set the identity only in this repository.</span><br><span class="line"></span><br><span class="line">fatal: unable to auto-detect email address (got &#x27;xxx@xxx.(none)&#x27;)</span><br><span class="line">FATAL Something&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">Error: Spawn failed</span><br><span class="line">    at ......</span><br><span class="line">    ......</span><br><span class="line">    ......</span><br><span class="line">    ......</span><br></pre></td></tr></table></figure>
-
-<p>输入你的Github用户名和注册的邮箱即可：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;用户名&quot;</span><br><span class="line">git config --global user.email &quot;xxxxx@xxx.com&quot;</span><br></pre></td></tr></table></figure>
-
-<h3 id="问题2"><a href="#问题2" class="headerlink" title="问题2"></a>问题2</h3><p>如果出现了类似：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">The authenticity of host &#x27;ssh.github.com (xx.xxx.xxx.xxx)&#x27; can&#x27;t be established.</span><br><span class="line">ED25519 key fingerprint is SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.</span><br><span class="line">This host key is known by the following other names/addresses:</span><br><span class="line">    ~/.ssh/known_hosts:1: [ssh.github.com]:443</span><br><span class="line">Are you sure you want to continue connecting (yes/no/[fingerprint])?</span><br><span class="line">Host key verification failed.</span><br><span class="line">fatal: Could not read from remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br><span class="line">FATAL Something&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">Error: Spawn failed</span><br><span class="line">    at ......</span><br><span class="line">    ......</span><br><span class="line">    ......</span><br><span class="line">    ......</span><br></pre></td></tr></table></figure>
-
-<p>说明你没有修改端口为443，hexo还是用的默认，导致密钥不匹配。根据上面第三点修改即可。</p>
-<h1 id="二-好好好"><a href="#二-好好好" class="headerlink" title="二.好好好"></a>二.好好好</h1><p>如果在运行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d时出现了（绿色字体）：</p>
-<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">INFO  Deploy done: git</span><br></pre></td></tr></table></figure>
-
-<p>说明你的个人博客已经大功告成了！<br></p>
-<p>下一步你可以做：</p>
-<p>打开浏览器访问<a href="https://xxxxxx.github.io(你的仓库名对应的域名)/">https://xxxxxx.github.io(你的仓库名对应的域名)</a>，看是否正常显示你的网站内容。</p>
-<p>以后本地修改文章或主题后，重复执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d即可更新网站。</p>
-<h1 id="三-自定义域名设置"><a href="#三-自定义域名设置" class="headerlink" title="三.自定义域名设置"></a>三.自定义域名设置</h1><p>自己看着买，喜欢哪个买哪个，相关信息自行搜索查询，这里不做任何推荐和打广告（嘻嘻）。</p>
-<h2 id="1-本地配置"><a href="#1-本地配置" class="headerlink" title="1.本地配置"></a>1.本地配置</h2><p>购买域名之后，在hexo配置文件修改，比如：</p>
-<figure class="highlight plaintext"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">url: http://moran-neko.moe  # 你买的域名，注意要用https</span><br></pre></td></tr></table></figure>
-
-<p>在你的博客文件根目录新建一个名为 CNAME 的文件（没有后缀！），文件内容写你的域名，比如：</p>
-<figure class="highlight plaintext"><figcaption><span>CNAME</span></figcaption><table><tr><td class="code"><pre><span class="line">moran-neko.moe</span><br></pre></td></tr></table></figure>
-
-<p>为了避免可能出现的小问题，把它复制一份到<mark class="hl-label default">sorce</mark>文件夹里。<br><br>然后执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br><br>把这个文件提交到GitHub仓库后，GitHub Pages就知道你的自定义域名了。</p>
-<h2 id="2-在你买域名的地方设置DNS解析"><a href="#2-在你买域名的地方设置DNS解析" class="headerlink" title="2.在你买域名的地方设置DNS解析"></a>2.在你买域名的地方设置DNS解析</h2><p>进入你域名管理面板的DNS设置页,添加<mark class="hl-label default">A</mark>记录,主机名填<mark class="hl-label default">@</mark>（如果有的话），指向GitHub Pages的IP（四条）：</p>
-<figure class="highlight plaintext"><figcaption><span>A</span></figcaption><table><tr><td class="code"><pre><span class="line">185.199.108.153</span><br><span class="line">185.199.109.153</span><br><span class="line">185.199.110.153</span><br><span class="line">185.199.111.153</span><br></pre></td></tr></table></figure>
-
-<p>添加一条 CNAME 记录，主机名填 www，指向xxxx.github.io（你的GitHub Pages地址）。</p>
-<p>等待DNS生效（一般来说几分钟就好，也可能更长，几小时），应该就可以通过你买的域名来访问博客了。</p>
-<h2 id="3-建议开启-HTTPS（加密访问）"><a href="#3-建议开启-HTTPS（加密访问）" class="headerlink" title="3.建议开启 HTTPS（加密访问）"></a>3.建议开启 HTTPS（加密访问）</h2><p>进入你的 GitHub 仓库页面：<br><br>点击 Settings → Pages<br><br>找到自定义域名设置，填入你买的域名<br><br>勾选 Enforce HTTPS（强制 HTTPS）</p>
-<h1 id="四-好好好"><a href="#四-好好好" class="headerlink" title="四.好好好"></a>四.好好好</h1><p>就这样，互联网上出现了全新的一角！</p>
-<p>如果这个教程对你有帮助，</p>
-<p>可以关注一下主播的Twitter和B站支持一波，</p>
-<p>关注默然谢谢喵。</p>
-<p>谢谢喵。</p>
-]]></content>
-      <categories>
-        <category>开发</category>
-      </categories>
-      <tags>
-        <tag>hexo</tag>
-        <tag>网站</tag>
-        <tag>懒人教程</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>补给站开发中（Alpha）</title>
     <url>/%E8%A1%A5%E7%BB%99%E7%AB%99%E5%9F%BA%E5%BB%BA/d52dcd89038e/</url>
     <content><![CDATA[<p>网站处于测试阶段，有很多地方都尚未完善！不喜勿喷</p>
@@ -604,6 +499,111 @@ C
       <tags>
         <tag>开发</tag>
         <tag>笨蛋</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>基于Hexo和Butterfly的个人博客搭建-2</title>
+    <url>/%E5%BC%80%E5%8F%91/3c57b938cf7f/</url>
+    <content><![CDATA[<p>本文旨在帮助对搭建个人博客有兴趣的同学快速上手，省去了部分自己查询官方教程花费的时间（也算是懒人教程了），但还是希望你自己去查找更详细的教程阅读一下<br><br>前提是需要会windows系统以及电脑的基础知识和基本操作，如果遇到一些比如“命令提示符（cmd）是什么，怎么打开”的问题，请自行搜索或者询问AI<br><br>还有，里面的示例代码仅供参考！一些由于篇幅过长没有展示全部，请勿盲目复制！</p>
+<hr>
+<p>上次我们已经完成了基本的配置和外观自定义，现在让我们将自己的博客部署到Github，使其能在互联网上访问。</p>
+<h1 id="一-配置Github"><a href="#一-配置Github" class="headerlink" title="一.配置Github"></a>一.配置Github</h1><h2 id="1-创建仓库"><a href="#1-创建仓库" class="headerlink" title="1.创建仓库"></a>1.创建仓库</h2><p>如果你没有Github账号，先去注册一个。</p>
+<p>在Github点击右上角 “+” → New repository<br><br>创建新仓库，命名为<mark class="hl-label default"><用户名>.github.io</mark>，默认分支为main。<br><br>比如你的Github用户名是114514，仓库就建成<mark class="hl-label default">114514.github.io</mark></p>
+<h2 id="2-连接到Github"><a href="#2-连接到Github" class="headerlink" title="2.连接到Github"></a>2.连接到Github</h2><h3 id="☀生成SSH-key"><a href="#☀生成SSH-key" class="headerlink" title="☀生成SSH key"></a>☀生成SSH key</h3><p>在cmd中输入：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh-keygen -t ed25519 -C 你注册GitHub用的邮箱</span><br></pre></td></tr></table></figure>
+
+
+<p>此时他会出现:<br><br>enter file in which to save the key (C:\Users\xxx &#x2F;.ssh&#x2F;id_ed25519): <br><br>直接按回车键使用默认路径<br><br>然后会出现<br><br>enter passphrase (empty for no passphrase): <br><br>直接回车跳过<br><br>enter same passphrase again: <br><br>要求再输入一次确认，就再按一次回车<br><br>最后应该会看到这样的输出：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">Your identification has been saved in C:\Users\xxx\.ssh\id_ed25519</span><br><span class="line">Your public key has been saved in C:\Users\xxx\.ssh\id_ed25519.pub</span><br><span class="line">......</span><br></pre></td></tr></table></figure>
+
+<p>这是示例的过程：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">C:\Users\xxx&gt;ssh-keygen -t ed25519 -C &quot;你的邮箱&quot;</span><br><span class="line">Generating public/private ed25519 key pair.</span><br><span class="line">Enter file in which to save the key (C:\Users\xxx/.ssh/id_ed25519):</span><br><span class="line">Created directory &#x27;C:\\Users\\xxx/.ssh&#x27;.</span><br><span class="line">Enter passphrase (empty for no passphrase):</span><br><span class="line">Enter same passphrase again:</span><br><span class="line">Your identification has been saved in C:\Users\xxx/.ssh/id_ed25519</span><br><span class="line">Your public key has been saved in C:\Users\xxx/.ssh/id_ed25519.pub</span><br><span class="line">The key fingerprint is:</span><br><span class="line">SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx 你的邮箱</span><br><span class="line">The key&#x27;s randomart image is:</span><br><span class="line">+--[ED25519 256]--+</span><br><span class="line">|                 |</span><br><span class="line">|                .|</span><br><span class="line">|               + |</span><br><span class="line">| 此处省略六行     |</span><br><span class="line">+----[SHA256]-----+</span><br></pre></td></tr></table></figure>
+
+<p>这样就成功了。</p>
+<h3 id="☀把公钥添加到Github"><a href="#☀把公钥添加到Github" class="headerlink" title="☀把公钥添加到Github"></a>☀把公钥添加到Github</h3><p>在cmd中输入:</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">type %USERPROFILE%\.ssh\id_ed25519.pub</span><br></pre></td></tr></table></figure>
+<p>这会输出你那一整行公钥，比如：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh-ed25519 AAAAC3Nz...很长的一串... 你的邮箱</span><br></pre></td></tr></table></figure>
+
+<p>复制整行，包括开头的 ssh-ed25519 和结尾的邮箱，一字不漏。</p>
+<p>在Github设置里(<a href="https://github.com/settings/keys">https://github.com/settings/keys</a>)<br><br>点击右上角绿色按钮 “New SSH key”<br><br>填写信息：<br><br>Title：随便填，比如 Windows主机<br><br>Key：粘贴你刚才复制的那一整行<br><br>点击 [Add SSH key]<br></p>
+<h3 id="☀测试连接"><a href="#☀测试连接" class="headerlink" title="☀测试连接"></a>☀测试连接</h3><p>回到cmd中输入：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<p>如果是第一次，会显示：Are you sure you want to continue connecting (yes&#x2F;no)? ，输入yes。<br><br>然后应该看到：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">Hi 114514! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+
+<p>这样就配置成功了。</p>
+<p>然后在hexo配置文件<mark class="hl-label default">_config.yml</mark>中修改：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line">  <span class="attr">type:</span> <span class="string">git</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@ssh.github.com:用户名/用户名.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br><span class="line">  <span class="attr">message:</span> <span class="string">&quot;Deploy: <span class="template-variable">&#123;&#123; now(&#x27;YYYY-MM-DD HH:mm:ss&#x27;) &#125;&#125;</span>&quot;</span></span><br></pre></td></tr></table></figure>
+
+<p>注意是<mark class="hl-label default">git@ssh.github.com:用户名/仓库名.git</mark></p>
+<p>这样就完成了！</p>
+<h2 id="3-可能出现的网络问题"><a href="#3-可能出现的网络问题" class="headerlink" title="3.可能出现的网络问题"></a>3.可能出现的网络问题</h2><p>如果输出的是</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh: connect to host github.com port 22: Connection refused</span><br></pre></td></tr></table></figure>
+
+<p>说明你的网络环境（可能是校园网、防火墙、运营商）屏蔽了 SSH 默认使用的端口，这是国内用户常见问题。<br><br>我们可以使用 GitHub 提供的 备用 SSH 域名 ssh.github.com + 端口 443 来规避限制。<br></p>
+<p>运行以下命令，将 SSH 对 GitHub 的连接设置为走 443 端口：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">git config --global ssh.variant ssh</span><br><span class="line">git config --global url.&quot;ssh://git@ssh.github.com:443/&quot;.insteadOf git@github.com:</span><br></pre></td></tr></table></figure>
+
+<p>然后尝试运行：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">ssh -T git@ssh.github.com -p 443</span><br></pre></td></tr></table></figure>
+
+<p>如果出现上述的成功通知，就完成配置了</p>
+<p>这是示例的过程：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">C:\Users\xxx&gt;ssh -T git@ssh.github.com -p 443</span><br><span class="line">The authenticity of host &#x27;[ssh.github.com]:443 ([xx.xxx.xxx.xxx]:443)&#x27; can&#x27;t be established.</span><br><span class="line">ED25519 key fingerprint is SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.</span><br><span class="line">This key is not known by any other names.</span><br><span class="line">Are you sure you want to continue connecting (yes/no/[fingerprint])?</span><br><span class="line">yes</span><br><span class="line">Warning: Permanently added &#x27;[ssh.github.com]:443&#x27; (ED25519) to the list of known hosts.</span><br><span class="line">Hi 114514! You&#x27;ve successfully authenticated, but GitHub does not provide shell access.</span><br></pre></td></tr></table></figure>
+
+<p>然后再在hexo配置文件里修改端口为443：</p>
+<figure class="highlight plaintext"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repo: ssh://git@ssh.github.com:443/用户名/仓库名.git</span><br><span class="line">  branch: main</span><br></pre></td></tr></table></figure>
+
+<p>然后确保全局走443端口，在cmd中输入：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">git config --global url.&quot;ssh://git@ssh.github.com:443/&quot;.insteadOf git@github.com:</span><br></pre></td></tr></table></figure>
+
+<p>现在你就可以hexo clean &amp;&amp; hexo g &amp;&amp; hexo d来推送到Github了。</p>
+<h2 id="4-部署时可能出现的的问题"><a href="#4-部署时可能出现的的问题" class="headerlink" title="4.部署时可能出现的的问题"></a>4.部署时可能出现的的问题</h2><h3 id="问题1"><a href="#问题1" class="headerlink" title="问题1"></a>问题1</h3><p>如果你在执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d出现类似：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">*** Please tell me who you are.</span><br><span class="line"></span><br><span class="line">Run</span><br><span class="line">  git config --global user.email &quot;you@example.com&quot;</span><br><span class="line">  git config --global user.name &quot;Your Name&quot;</span><br><span class="line"></span><br><span class="line">to set your account&#x27;s default identity.</span><br><span class="line">Omit --global to set the identity only in this repository.</span><br><span class="line"></span><br><span class="line">fatal: unable to auto-detect email address (got &#x27;xxx@xxx.(none)&#x27;)</span><br><span class="line">FATAL Something&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">Error: Spawn failed</span><br><span class="line">    at ......</span><br><span class="line">    ......</span><br><span class="line">    ......</span><br><span class="line">    ......</span><br></pre></td></tr></table></figure>
+
+<p>输入你的Github用户名和注册的邮箱即可：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;用户名&quot;</span><br><span class="line">git config --global user.email &quot;xxxxx@xxx.com&quot;</span><br></pre></td></tr></table></figure>
+
+<h3 id="问题2"><a href="#问题2" class="headerlink" title="问题2"></a>问题2</h3><p>如果出现了类似：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">The authenticity of host &#x27;ssh.github.com (xx.xxx.xxx.xxx)&#x27; can&#x27;t be established.</span><br><span class="line">ED25519 key fingerprint is SHA256:xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx.</span><br><span class="line">This host key is known by the following other names/addresses:</span><br><span class="line">    ~/.ssh/known_hosts:1: [ssh.github.com]:443</span><br><span class="line">Are you sure you want to continue connecting (yes/no/[fingerprint])?</span><br><span class="line">Host key verification failed.</span><br><span class="line">fatal: Could not read from remote repository.</span><br><span class="line"></span><br><span class="line">Please make sure you have the correct access rights</span><br><span class="line">and the repository exists.</span><br><span class="line">FATAL Something&#x27;s wrong. Maybe you can find the solution here: https://hexo.io/docs/troubleshooting.html</span><br><span class="line">Error: Spawn failed</span><br><span class="line">    at ......</span><br><span class="line">    ......</span><br><span class="line">    ......</span><br><span class="line">    ......</span><br></pre></td></tr></table></figure>
+
+<p>说明你没有修改端口为443，hexo还是用的默认，导致密钥不匹配。根据上面第三点修改即可。</p>
+<h1 id="二-好好好"><a href="#二-好好好" class="headerlink" title="二.好好好"></a>二.好好好</h1><p>如果在运行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d时出现了（绿色字体）：</p>
+<figure class="highlight plaintext"><figcaption><span>cmd</span></figcaption><table><tr><td class="code"><pre><span class="line">INFO  Deploy done: git</span><br></pre></td></tr></table></figure>
+
+<p>说明你的个人博客已经大功告成了！<br></p>
+<p>下一步你可以做：</p>
+<p>打开浏览器访问<a href="https://xxxxxx.github.io(你的仓库名对应的域名)/">https://xxxxxx.github.io(你的仓库名对应的域名)</a>，看是否正常显示你的网站内容。</p>
+<p>以后本地修改文章或主题后，重复执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d即可更新网站。</p>
+<h1 id="三-自定义域名设置"><a href="#三-自定义域名设置" class="headerlink" title="三.自定义域名设置"></a>三.自定义域名设置</h1><p>自己看着买，喜欢哪个买哪个，相关信息自行搜索查询，这里不做任何推荐和打广告（嘻嘻）。</p>
+<h2 id="1-本地配置"><a href="#1-本地配置" class="headerlink" title="1.本地配置"></a>1.本地配置</h2><p>购买域名之后，在hexo配置文件修改，比如：</p>
+<figure class="highlight plaintext"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">url: http://moran-neko.moe  # 你买的域名，注意要用https</span><br></pre></td></tr></table></figure>
+
+<p>在你的博客文件根目录新建一个名为 CNAME 的文件（没有后缀！），文件内容写你的域名，比如：</p>
+<figure class="highlight plaintext"><figcaption><span>CNAME</span></figcaption><table><tr><td class="code"><pre><span class="line">moran-neko.moe</span><br></pre></td></tr></table></figure>
+
+<p>为了避免可能出现的小问题，把它复制一份到<mark class="hl-label default">sorce</mark>文件夹里。<br><br>然后执行hexo clean &amp;&amp; hexo g &amp;&amp; hexo d<br><br>把这个文件提交到GitHub仓库后，GitHub Pages就知道你的自定义域名了。</p>
+<h2 id="2-在你买域名的地方设置DNS解析"><a href="#2-在你买域名的地方设置DNS解析" class="headerlink" title="2.在你买域名的地方设置DNS解析"></a>2.在你买域名的地方设置DNS解析</h2><p>进入你域名管理面板的DNS设置页,添加<mark class="hl-label default">A</mark>记录,主机名填<mark class="hl-label default">@</mark>（如果有的话），指向GitHub Pages的IP（四条）：</p>
+<figure class="highlight plaintext"><figcaption><span>A</span></figcaption><table><tr><td class="code"><pre><span class="line">185.199.108.153</span><br><span class="line">185.199.109.153</span><br><span class="line">185.199.110.153</span><br><span class="line">185.199.111.153</span><br></pre></td></tr></table></figure>
+
+<p>添加一条 CNAME 记录，主机名填 www，指向xxxx.github.io（你的GitHub Pages地址）。</p>
+<p>等待DNS生效（一般来说几分钟就好，也可能更长，几小时），应该就可以通过你买的域名来访问博客了。</p>
+<h2 id="3-建议开启-HTTPS（加密访问）"><a href="#3-建议开启-HTTPS（加密访问）" class="headerlink" title="3.建议开启 HTTPS（加密访问）"></a>3.建议开启 HTTPS（加密访问）</h2><p>进入你的 GitHub 仓库页面：<br><br>点击 Settings → Pages<br><br>找到自定义域名设置，填入你买的域名<br><br>勾选 Enforce HTTPS（强制 HTTPS）</p>
+<h1 id="四-好好好"><a href="#四-好好好" class="headerlink" title="四.好好好"></a>四.好好好</h1><p>就这样，互联网上出现了全新的一角！</p>
+<p>如果这个教程对你有帮助，</p>
+<p>可以关注一下主播的Twitter和B站支持一波，</p>
+<p>关注默然谢谢喵。</p>
+<p>谢谢喵。</p>
+]]></content>
+      <categories>
+        <category>开发</category>
+      </categories>
+      <tags>
+        <tag>hexo</tag>
+        <tag>网站</tag>
+        <tag>懒人教程</tag>
       </tags>
   </entry>
 </search>
