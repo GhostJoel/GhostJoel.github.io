@@ -345,6 +345,20 @@ C
         </div>
         <div class='timeline-item-content'><p>修改全局字体为观感更舒适的Source Han Serif CN<br>修改了背景图</p>
 </div>
+      </div><div class='timeline-item'>
+        <div class='timeline-item-title'>
+          <div class='item-circle'><p>06-24</p>
+</div>
+        </div>
+        <div class='timeline-item-content'><p>新增了本地部署工具还能查看部署状态，部署、清理、检查日志、生成动态&#x2F;日记等功能的集成</p>
+</div>
+      </div><div class='timeline-item'>
+        <div class='timeline-item-title'>
+          <div class='item-circle'><p>09-22</p>
+</div>
+        </div>
+        <div class='timeline-item-content'><p>修改了aplayer的播放列表，公共CDN不稳定于是换了本地媒体，关闭了预加载避免进入网页卡顿<br>新增了自动转换本地歌曲、提取封面和歌词并放进对应文件夹的脚本<br>（本次更新由ai完成）</p>
+</div>
       </div></div>
 
 <hr>
