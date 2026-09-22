@@ -217,7 +217,49 @@
   }
 
   run(keyName, getComment)
-})</script><script color="255,255,255" opacity="1" count="200" e_dist="1" src="https://cdn.jsdelivr.net/gh/hustcc/canvas-nest.js/canvas-nest.min.js"></script><div id="aplayer"></div><script src="/js/aplayer-init.js"></script><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
+})</script><script color="255,255,255" opacity="1" count="200" e_dist="1" src="https://cdn.jsdelivr.net/gh/hustcc/canvas-nest.js/canvas-nest.min.js"></script><div id="aplayer"></div>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var el = document.getElementById('aplayer');
+  if (!el || typeof APlayer === 'undefined') return;
+  new APlayer({
+    container: el,
+    fixed: true,
+    autoplay: false,
+    theme: '#ff89d6',
+    loop: 'all',
+    order: 'list',
+    preload: 'none',
+    volume: 0.8,
+    lrcType: 1,
+    listFolded: true,
+    audio: [
+      { name: "From Here", artist: "Adib Sin,Cae", url: "/music/aplayer/Adib Sin,Cae - From Here.mp3", cover: "/music/aplayer/cover/Adib Sin,Cae - From Here.jpg", lrc: "/music/aplayer/lrc/Adib Sin,Cae - From Here.lrc" },
+      { name: "I Thought I Lost You", artist: "Aurora Sky", url: "/music/aplayer/Aurora Sky - I Thought I Lost You.mp3", cover: "/music/aplayer/cover/Aurora Sky - I Thought I Lost You.jpg", lrc: "/music/aplayer/lrc/Aurora Sky - I Thought I Lost You.lrc" },
+      { name: "Tek It (Sped Up)", artist: "Cafuné", url: "/music/aplayer/Cafuné - Tek It (Sped Up).mp3", cover: "/music/aplayer/cover/Cafuné - Tek It (Sped Up).jpg", lrc: "/music/aplayer/lrc/Cafuné - Tek It (Sped Up).lrc" },
+      { name: "Astronomy (English Ver.)", artist: "Empty old City", url: "/music/aplayer/Empty old City - Astronomy (English Ver.).mp3", cover: "/music/aplayer/cover/Empty old City - Astronomy (English Ver.).jpg", lrc: "/music/aplayer/lrc/Empty old City - Astronomy (English Ver.).lrc" },
+      { name: "Daisy Crown (English Ver.)", artist: "Empty old City,Wuthering Waves", url: "/music/aplayer/Empty old City,Wuthering Waves - Daisy Crown (English Ver.).mp3", cover: "/music/aplayer/cover/Empty old City,Wuthering Waves - Daisy Crown (English Ver.).jpg", lrc: "/music/aplayer/lrc/Empty old City,Wuthering Waves - Daisy Crown (English Ver.).lrc" },
+      { name: "You're the Shine (Night Butterflies)", artist: "FELT", url: "/music/aplayer/FELT - You're the Shine (Night Butterflies).mp3", cover: "/music/aplayer/cover/FELT - You're the Shine (Night Butterflies).jpg", lrc: "/music/aplayer/lrc/FELT - You're the Shine (Night Butterflies).lrc" },
+      { name: "That’s So True", artist: "Gracie Abrams", url: "/music/aplayer/Gracie Abrams - That’s So True.mp3", cover: "/music/aplayer/cover/Gracie Abrams - That’s So True.jpg", lrc: "/music/aplayer/lrc/Gracie Abrams - That’s So True.lrc" },
+      { name: "永夜のパレード", artist: "JUMA,ケーキ姫☆優海", url: "/music/aplayer/JUMA,ケーキ姫☆優海 - 永夜のパレード.mp3", cover: "/music/aplayer/cover/JUMA,ケーキ姫☆優海 - 永夜のパレード.jpg", lrc: "/music/aplayer/lrc/JUMA,ケーキ姫☆優海 - 永夜のパレード.lrc" },
+      { name: "在我变成你之前", artist: "Nerve Passenger（神经旅人）", url: "/music/aplayer/Nerve Passenger（神经旅人） - 在我变成你之前.mp3", cover: "/music/aplayer/cover/Nerve Passenger（神经旅人） - 在我变成你之前.jpg", lrc: "/music/aplayer/lrc/Nerve Passenger（神经旅人） - 在我变成你之前.lrc" },
+      { name: "좋아 (JOAH)", artist: "PURPLE KISS", url: "/music/aplayer/PURPLE KISS - 좋아 (JOAH).mp3", cover: "/music/aplayer/cover/PURPLE KISS - 좋아 (JOAH).jpg", lrc: "/music/aplayer/lrc/PURPLE KISS - 좋아 (JOAH).lrc" },
+      { name: "colorful (feat. ほとけ)", artist: "higma,ほとけ", url: "/music/aplayer/higma,ほとけ - colorful (feat. ほとけ).mp3", cover: "/music/aplayer/cover/higma,ほとけ - colorful (feat. ほとけ).jpg", lrc: "/music/aplayer/lrc/higma,ほとけ - colorful (feat. ほとけ).lrc" },
+      { name: "空間、事情、時間、事象。", artist: "kinoue64,初音ミク", url: "/music/aplayer/kinoue64,初音ミク - 空間、事情、時間、事象。.mp3", cover: "/music/aplayer/cover/kinoue64,初音ミク - 空間、事情、時間、事象。.jpg", lrc: "/music/aplayer/lrc/kinoue64,初音ミク - 空間、事情、時間、事象。.lrc" },
+      { name: "cat reincarnation", artist: "nyamura", url: "/music/aplayer/nyamura - cat reincarnation.mp3", cover: "/music/aplayer/cover/nyamura - cat reincarnation.jpg", lrc: "/music/aplayer/lrc/nyamura - cat reincarnation.lrc" },
+      { name: "リナリアが咲いて", artist: "nyamura", url: "/music/aplayer/nyamura - リナリアが咲いて.mp3", cover: "/music/aplayer/cover/nyamura - リナリアが咲いて.jpg", lrc: "/music/aplayer/lrc/nyamura - リナリアが咲いて.lrc" },
+      { name: "Ham", artist: "ずっと真夜中でいいのに。", url: "/music/aplayer/ずっと真夜中でいいのに。 - Ham.mp3", cover: "/music/aplayer/cover/ずっと真夜中でいいのに。 - Ham.jpg", lrc: "/music/aplayer/lrc/ずっと真夜中でいいのに。 - Ham.lrc" },
+      { name: "暗く黒く", artist: "ずっと真夜中でいいのに。", url: "/music/aplayer/ずっと真夜中でいいのに。 - 暗く黒く.mp3", cover: "/music/aplayer/cover/ずっと真夜中でいいのに。 - 暗く黒く.jpg", lrc: "/music/aplayer/lrc/ずっと真夜中でいいのに。 - 暗く黒く.lrc" },
+      { name: "胸の煙", artist: "ずっと真夜中でいいのに。", url: "/music/aplayer/ずっと真夜中でいいのに。 - 胸の煙.mp3", cover: "/music/aplayer/cover/ずっと真夜中でいいのに。 - 胸の煙.jpg", lrc: "/music/aplayer/lrc/ずっと真夜中でいいのに。 - 胸の煙.lrc" },
+      { name: "虚仮にしてくれ", artist: "ずっと真夜中でいいのに。", url: "/music/aplayer/ずっと真夜中でいいのに。 - 虚仮にしてくれ.mp3", cover: "/music/aplayer/cover/ずっと真夜中でいいのに。 - 虚仮にしてくれ.jpg", lrc: "/music/aplayer/lrc/ずっと真夜中でいいのに。 - 虚仮にしてくれ.lrc" },
+      { name: "過去に囚われている", artist: "ツユ", url: "/music/aplayer/ツユ - 過去に囚われている.mp3", cover: "/music/aplayer/cover/ツユ - 過去に囚われている.jpg", lrc: "/music/aplayer/lrc/ツユ - 過去に囚われている.lrc" },
+      { name: "きっとこれは悪い夢 (feat. ナースロボ＿タイプT)", artist: "凍傷のエト,ナースロボ＿タイプＴ", url: "/music/aplayer/凍傷のエト,ナースロボ＿タイプＴ - きっとこれは悪い夢 (feat. ナースロボ＿タイプT).mp3", cover: "/music/aplayer/cover/凍傷のエト,ナースロボ＿タイプＴ - きっとこれは悪い夢 (feat. ナースロボ＿タイプT).jpg", lrc: "/music/aplayer/lrc/凍傷のエト,ナースロボ＿タイプＴ - きっとこれは悪い夢 (feat. ナースロボ＿タイプT).lrc" },
+      { name: "本周最伤心的事儿", artist: "左乙", url: "/music/aplayer/左乙 - 本周最伤心的事儿.mp3", cover: "/music/aplayer/cover/左乙 - 本周最伤心的事儿.jpg", lrc: "/music/aplayer/lrc/左乙 - 本周最伤心的事儿.lrc" },
+    ]
+  });
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/activate-power-mode.min.js"></script><script>POWERMODE.colorful = true;
 POWERMODE.shake = false;
 POWERMODE.mobile = false;
 document.body.addEventListener('input', POWERMODE);
